@@ -368,5 +368,13 @@
       ],
       "key": "P"
     }
+  ],
+  "obsidian-editor-shortcuts:toggleCase": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "I"
+    }
   ]
 }

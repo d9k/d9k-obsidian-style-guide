@@ -47,9 +47,18 @@
           "multiline": false,
           "sticky": false,
           "disabled": false
+        },
+        {
+          "from": "- DEV Community",
+          "to": "| dev.to",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },

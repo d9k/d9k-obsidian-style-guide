@@ -95,11 +95,11 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 
 ### IT
 
-- :sleuth_or_spy: анализ/расследование причины/поиск в коде
-- :astronaut: research/исследование/экспериментирование
-- :runner: пройти туториал
-- :robot_face: автоматизация
-- :bust_in_silhouette: доступ
+- :sleuth_or_spy: analyze/investigate unusual behavior reasons/in-code search
+- :astronaut: research/experiment
+- :runner: run tutorial
+- :robot_face: automation
+- :bust_in_silhouette: access
 - :electric_plug: окружение
 - :rotating_light: error code/text
 - :open_file_folder: path to file locally/on repo
