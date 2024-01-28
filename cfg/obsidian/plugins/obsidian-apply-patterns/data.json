@@ -56,9 +56,18 @@
           "multiline": false,
           "sticky": false,
           "disabled": false
+        },
+        {
+          "from": "- Database Administrators Stack Exchange",
+          "to": "| DBA Stack Exch.",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
