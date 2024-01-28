@@ -74,15 +74,10 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 
 ### Темы/Категории
 
-* :test_tube: тестирование
-* :alembic: тестирование: большое
-- :muscle: самосовершенствование
+- :muscle: self-development
 - :martial_arts_uniform: proficient knowledge
 - :surfer: just exploring possibilities (лёгкая увлекательная активность)
 - :shopping_trolley: покупки
-- :arrows_clockwise: small refactor
-- :carpentry_saw: big refactor
-- :lower_left_paintbrush: дизайн
 
 ### Контент/информация
 
@@ -102,6 +97,7 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :bust_in_silhouette: access
 - :electric_plug: окружение
 - :rotating_light: error code/text
+- :warning: warning
 - :open_file_folder: path to file locally/on repo
 - :balloon: interactive demo
 - :beginner: документация
@@ -119,6 +115,12 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - 🖧 LAN URL
 - :bow_and_arrow: pull request
 - :wood: crutch / temporary solution
+- :test_tube: test
+* :alembic: test: big
+* :woman-shrugging: test not reproduced
+- :arrows_clockwise: small refactor
+- :carpentry_saw: big refactor
+- :lower_left_paintbrush: дизайн / CSS / styling
 
 ### Написание статей, структурирование записей
 
@@ -130,13 +132,14 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :point_left: local link back (from partial to whole)
 - :round_pushpin: moving link (i. e. current task)
 
-### Коммуникация
+### Communication
 
 - :speech_balloon: discussions on forums/issues
 - :speaking_head_in_silhouette: asked question
 - :sunglasses: contacts / people
 - :male-office-worker: author
 - :construction: (author not responding or doesn't plan to fix)
+- :bell: waiting for answer
 - :arrows_counterclockwise: last checked `${last_check} / ${since}`
 - :no_good: no answer for long time `${last_check} / ${since}`
 
