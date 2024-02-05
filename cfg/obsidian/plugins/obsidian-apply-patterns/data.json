@@ -451,6 +451,23 @@
           "disabled": false
         }
       ],
+      "collapsed": true,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "github link fix",
+      "rules": [
+        {
+          "from": "\\[(.+)\\/(.+):(.+)\\]\\((https://github.com/(.+))\\)",
+          "to": "[$2]($4) by $1\\t\\n- $3",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
       "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
