@@ -459,7 +459,7 @@
       "name": "github link fix",
       "rules": [
         {
-          "from": "\\[(.+)\\/(.+): (.+)\\]\\((https://github.com/(.+))\\)",
+          "from": "\\[([a-zA-Z0-9_-]+)\\/(.+): (.+)\\]\\((https://github.com/(.+))\\)",
           "to": "[$2]($4) by [$1](https://github.com/$1)\\n\\t- _$3_",
           "caseInsensitive": false,
           "global": false,
