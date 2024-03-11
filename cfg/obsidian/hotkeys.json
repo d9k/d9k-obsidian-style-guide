@@ -376,5 +376,13 @@
       ],
       "key": "I"
     }
+  ],
+  "search-on-internet:search-on-internet": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Z"
+    }
   ]
 }

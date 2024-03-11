@@ -11,6 +11,12 @@
       "query": "https://en.wikipedia.org/wiki/Special:Search/{{query}}",
       "name": "Wikipedia",
       "encode": true
+    },
+    {
+      "name": "Google",
+      "query": "https://www.google.com/search?&q={{query}}",
+      "tags": [],
+      "encode": true
     }
   ],
   "useIframe": false
