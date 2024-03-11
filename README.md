@@ -48,13 +48,13 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :desktop_computer: frontend
 - :gem: BFF
 - :luc_hard_drive: сервисы backend
-- :luc_database: базы данных
+- :luc_database: database
 
 ### Запросы
 
 - :luc_move_vertical: обмен запросами
-- :luc_arrow_big_down: GET
-- :luc_arrow_big_up: POST/PUT
+- :arrow_down: GET
+- :arrow_up: POST/PUT
 
 ### Сравнение
 
@@ -112,6 +112,7 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :wrench: fixing other people's code by myself
 - :collision: crash
 - :fallen_leaf: deprecated / abandoned / no updates for long time
+- :herb: [\compatible with\] fresh version
 - 🖧 LAN URL
 - :bow_and_arrow: pull request
 - :wood: crutch / temporary solution
@@ -121,6 +122,7 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :arrows_clockwise: small refactor
 - :carpentry_saw: big refactor
 - :lower_left_paintbrush: дизайн / CSS / styling
+- :arrow_right: route
 
 ### Написание статей, структурирование записей
 
@@ -146,6 +148,7 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 ### Program code navigation
 
 - :printer: листинг
+- :page_with_curl: code file path
 - :symbols: отрывок кода
 - :placard: code example (short) by following URL
 - :bricks: структура
@@ -260,6 +263,9 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - 🏚️ 🍄 :no_good: :cl: 🈲 :monkey: 🕷️ :spider_web: 🦨 🎱
 - :rabbit2: ? target DOM element / program object
 - :obs_up_curly_arrow_glyph: declaration of fn/class/variable
+- :sleuth_or_spy: 👨‍✈️ :mag_right::spiral_note_pad: :compass: ☸️ :spider_web: 🛣️ ? отзывы
+- 🌷:seedling:🌸 🌿 fresh
+- :obs_quote_glyph: 🖇️ :paperclip:  quote
 
 ## Сворачивающиеся блоки
 
