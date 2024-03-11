@@ -65,6 +65,24 @@
           "multiline": false,
           "sticky": false,
           "disabled": false
+        },
+        {
+          "from": "\\[([a-zA-Z0-9_-]+)\\/(.+): (.+)\\]\\((https://github.com/(.+))\\)",
+          "to": "[$2]($4) by [$1](https://github.com/$1)\\n\\t- _$3_",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "(\\[[^\\[]* \\| YT\\])",
+          "to": ":tv: $1",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
         }
       ],
       "collapsed": false,
@@ -456,7 +474,7 @@
       "cursorRegexEnd": "^"
     },
     {
-      "name": "github link fix",
+      "name": "deprecated: github link fix",
       "rules": [
         {
           "from": "\\[([a-zA-Z0-9_-]+)\\/(.+): (.+)\\]\\((https://github.com/(.+))\\)",
@@ -468,7 +486,33 @@
           "disabled": false
         }
       ],
-      "collapsed": false,
+      "collapsed": true,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "string constant",
+      "rules": [
+        {
+          "from": "^",
+          "to": ":symbols: _`'",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "$",
+          "to": "'`_",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     }
