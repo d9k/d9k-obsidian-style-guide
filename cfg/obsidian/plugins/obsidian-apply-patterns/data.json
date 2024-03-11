@@ -83,6 +83,15 @@
           "multiline": false,
           "sticky": false,
           "disabled": false
+        },
+        {
+          "from": "(\\[[^\\[]* \\| SO\\])",
+          "to": ":speech_balloon: $1",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
         }
       ],
       "collapsed": false,
