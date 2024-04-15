@@ -31,7 +31,7 @@
           "disabled": false
         },
         {
-          "from": "· Issue #([0-9]+) · ([0-9a-z_\\-]+)/([0-9a-z_\\-]+)",
+          "from": "· Issue #([0-9]+) · ([0-9A-Za-z_\\-]+)/([0-9A-Za-z_\\-]+)",
           "to": "| issue #$1 | $3",
           "caseInsensitive": false,
           "global": false,
