@@ -22,6 +22,15 @@
           "disabled": false
         },
         {
+          "from": "GitHub - ",
+          "to": "",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
           "from": "- Stack Overflow",
           "to": "| SO",
           "caseInsensitive": false,
