@@ -95,7 +95,7 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :runner: run tutorial
 - :robot_face: automation
 - :bust_in_silhouette: access
-- :electric_plug: окружение
+- :electric_plug: environment, connection, credentials
 - :rotating_light: error code/text
 - :warning: warning
 - :open_file_folder: path to file locally/on repo
@@ -105,14 +105,14 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - ⏩ MVP
 - 🚪 project homepage ^d9k-homepage-2023-11-08
 - :stethoscope: DevTools, debug
-- :wrench: tool
+- :wrench: configure, tool
 - :building_construction: build command / tool / boilerplate / starter template
 - :seedling: raw functionality (alpha/beta)
 - :jigsaw: plugin / extension / module / specialized small tool
 - :wrench: fixing other people's code by myself
 - :collision: crash
 - :fallen_leaf: deprecated / abandoned / no updates for long time
-- :herb: [\compatible with\] fresh version
+- :herb: \[compatible with\] fresh version
 - 🖧 LAN URL
 - :bow_and_arrow: pull request
 - :wood: crutch / temporary solution
@@ -147,18 +147,20 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 
 ### Program code navigation
 
-- :printer: листинг
+- :printer: link to code listing
 - :page_with_curl: code file path
-- :symbols: отрывок кода
+- :symbols: code snippet
 - :placard: code example (short) by following URL
-- :bricks: структура
+- :bricks: structure
 - :yarn: declaration of fn/class/variable
+- :package: class / type
 - :link: usage
 - :arrow_right_hook: fn call
 - :golf: поиск места в коде
 - :zap: CLI command
 - :gear: internals
 - :luc_play: action
+- :briefcase: project
 
 ### Поиск
 
@@ -266,6 +268,8 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :sleuth_or_spy: 👨‍✈️ :mag_right::spiral_note_pad: :compass: ☸️ :spider_web: 🛣️ ? отзывы
 - 🌷:seedling:🌸 🌿 fresh
 - :obs_quote_glyph: 🖇️ :paperclip:  quote
+- :card_file_box: :card_index_dividers: 📑 📇 🗓️ 🗄️ 🎬 💽 🪣🛢️🥡 📁 📂 🏕️ 📕 :briefcase: 🛄 🧊 project
+- 🧰 tools
 
 ## Сворачивающиеся блоки
 
