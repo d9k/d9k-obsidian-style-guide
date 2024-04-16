@@ -542,6 +542,23 @@
       "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
+    },
+    {
+      "name": "path split",
+      "rules": [
+        {
+          "from": "`*([a-zA-Z0-9\\-_ \\.\\/]+)\\/([a-zA-Z0-9\\-_ \\.]+)`*",
+          "to": ":page_with_curl:`$2` in :open_file_folder:`$1`",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": false,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
     }
   ],
   "filterString": "",
