@@ -46,7 +46,7 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 ### Разделение по месту исполнения кода
 
 - :desktop_computer: frontend
-- :gem: BFF
+- :ice_cube: BFF
 - :luc_hard_drive: сервисы backend
 - :luc_database: database
 
@@ -106,10 +106,10 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - 🚪 project homepage ^d9k-homepage-2023-11-08
 - :stethoscope: DevTools, debug
 - :wrench: configure, tool
+- :mechanic: fixing other people's code by myself
 - :building_construction: build command / tool / boilerplate / starter template
 - :seedling: raw functionality (alpha/beta)
 - :jigsaw: plugin / extension / module / specialized small tool
-- :wrench: fixing other people's code by myself
 - :collision: crash
 - :fallen_leaf: deprecated / abandoned / no updates for long time
 - :herb: \[compatible with\] fresh version
@@ -148,19 +148,21 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 ### Program code navigation
 
 - :printer: link to code listing
-- :page_with_curl: code file path
+- :open_file_folder: :page_with_curl: code file path
 - :symbols: code snippet
 - :placard: code example (short) by following URL
 - :bricks: structure
-- :yarn: declaration of fn/class/variable
+- 🡤 declaration of fn/class/variable, definition
+- :moyai: const / constant string
 - :package: class / type
+- :gem: visual component
 - :link: usage
 - :arrow_right_hook: fn call
 - :golf: поиск места в коде
 - :zap: CLI command
 - :gear: internals
 - :luc_play: action
-- :briefcase: project
+- :deciduous_tree: project
 
 ### Поиск
 
@@ -268,8 +270,9 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :sleuth_or_spy: 👨‍✈️ :mag_right::spiral_note_pad: :compass: ☸️ :spider_web: 🛣️ ? отзывы
 - 🌷:seedling:🌸 🌿 fresh
 - :obs_quote_glyph: 🖇️ :paperclip:  quote
-- :card_file_box: :card_index_dividers: 📑 📇 🗓️ 🗄️ 🎬 💽 🪣🛢️🥡 📁 📂 🏕️ 📕 :briefcase: 🛄 🧊 project
+- :card_file_box: :card_index_dividers: 📑 📇 🗓️ 🗄️ 🎬 💽 🪣🛢️🥡 📁 📂 🏕️ 📕 :briefcase: 🛄 🧊 💿 📐 🪤 :pushpin: 🌳 project
 - 🧰 tools
+- 🦕
 
 ## Сворачивающиеся блоки
 
