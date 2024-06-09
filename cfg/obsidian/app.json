@@ -4,5 +4,6 @@
   "showInlineTitle": false,
   "spellcheckLanguages": null,
   "newFileLocation": "current",
-  "promptDelete": true
+  "promptDelete": true,
+  "vimMode": true
 }

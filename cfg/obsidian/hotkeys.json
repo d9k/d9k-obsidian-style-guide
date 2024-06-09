@@ -76,14 +76,6 @@
       "key": "L"
     }
   ],
-  "duplicate-line:duplicate-line-up": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "D"
-    }
-  ],
   "editor:delete-paragraph": [
     {
       "modifiers": [
@@ -155,14 +147,6 @@
         "Alt"
       ],
       "key": "="
-    }
-  ],
-  "insert-template": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "T"
     }
   ],
   "cycle-in-sidebar:cycle-left-sidebar": [
@@ -319,14 +303,7 @@
       "key": "A"
     }
   ],
-  "templater-obsidian:jump-to-next-cursor-location": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "E"
-    }
-  ],
+  "templater-obsidian:jump-to-next-cursor-location": [],
   "darlal-switcher-plus:switcher-plus:open-symbols-active": [
     {
       "modifiers": [
@@ -383,6 +360,79 @@
         "Alt"
       ],
       "key": "Z"
+    }
+  ],
+  "cycle-through-panes:cycle-through-panes-reverse": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Y"
+    }
+  ],
+  "cycle-through-panes:focus-on-last-active-pane-reverse": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "U"
+    }
+  ],
+  "workspace:next-tab": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "Tab"
+    },
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "PageDown"
+    },
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "F"
+    }
+  ],
+  "workspace:previous-tab": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "Tab"
+    },
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "PageUp"
+    },
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "E"
+    }
+  ],
+  "workspace:close": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "W"
+    },
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "X"
     }
   ]
 }
