@@ -33,15 +33,16 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 
 - [EmojiCombos.com](https://emojicombos.com/)
 
-### Статус задачи
+### Big task status
 
-* :black_square_button: открыто
-* :hourglass_flowing_sand: в процессе
-* :negative_squared_cross_mark: частично сделано, но пока продолжения не планируется
-* :white_check_mark: сделано
-* :hand: пауза, неприоритетно сейчас
-* :no_entry_sign: отменено / не удалось
-* :trident: partial, т. е. задача большая и в другом файле ещё часть задачи
+* :black_square_button: open
+* :hourglass_flowing_sand: in development
+* :negative_squared_cross_mark: partially done, no further planning yet
+* :white_check_mark: done
+* :hand: on hold/on pause, неприоритетно сейчас
+* :fire: urgent
+* :no_entry_sign: cancelled / susupended / fail to do
+* :trident: partial: task is big, with different status another file
 
 ### Разделение по месту исполнения кода
 
