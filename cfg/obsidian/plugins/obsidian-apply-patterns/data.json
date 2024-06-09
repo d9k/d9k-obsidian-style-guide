@@ -110,6 +110,15 @@
           "multiline": false,
           "sticky": false,
           "disabled": false
+        },
+        {
+          "from": "(\\[[^\\[]+ \\| discussion #\\d+ \\| [^\\[]+\\])",
+          "to": ":speech_balloon: $1",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
         }
       ],
       "collapsed": false,
@@ -566,6 +575,32 @@
         {
           "from": "(.*)",
           "to": "`<$1>`",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": false,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "\"[]\" - comments by reviewer/translator",
+      "rules": [
+        {
+          "from": "(.*)",
+          "to": "\\[$1\\]",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "^(\\\\\\[\\\\\\])$",
+          "to": "\\[...\\]",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
