@@ -1,0 +1,9 @@
+/* For relative line numbers community plugin */
+
+.cm-gutterElement.cm-active {
+  color: #b0b0ff;
+}
+
+.cm-gutters {
+  min-width: 70px;
+}
