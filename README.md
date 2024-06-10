@@ -329,3 +329,9 @@ Add `!` before local link.
 
 ![[js-webassembly#^d9k-WASI-quote-2023-11-08]]
 
+## Installation (draft...)
+
+```bash
+ln -s obsidian-style-guide/.obsidian.vimrc .obsidian.vimrc
+ln -s obsidian-style-guide .obsidian
+```
