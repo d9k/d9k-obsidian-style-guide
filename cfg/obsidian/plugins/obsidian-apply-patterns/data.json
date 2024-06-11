@@ -103,7 +103,7 @@
           "disabled": false
         },
         {
-          "from": "(\\[[^\\[]+ \\| issue #\\d+ \\| [^\\[]+\\])",
+          "from": "([\\[\\\\]*[^\\[]+ \\| issue #\\d+ \\| [^\\[]+\\])",
           "to": ":speech_balloon: $1",
           "caseInsensitive": false,
           "global": false,
