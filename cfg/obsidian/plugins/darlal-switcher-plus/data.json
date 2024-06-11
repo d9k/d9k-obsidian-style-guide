@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "2.0.0",
   "onOpenPreferNewTab": true,
   "alwaysNewTabForSymbols": false,
   "useActiveTabForSymbolsOnMobile": false,
@@ -11,8 +11,10 @@
   "headingsListCommand": "#",
   "bookmarksListCommand": "'",
   "commandListCommand": ">",
+  "vaultListCommand": "vault ",
   "relatedItemsListCommand": "~",
   "relatedItemsListActiveEditorCommand": "^",
+  "shouldSearchHeadings": true,
   "strictHeadingsOnly": true,
   "searchAllHeadings": false,
   "headingsSearchDebounceMilli": 250,
@@ -47,8 +49,9 @@
   ],
   "excludeOpenRelatedFiles": false,
   "excludeObsidianIgnoredFiles": false,
-  "shouldSearchFilenames": false,
+  "shouldSearchFilenames": true,
   "shouldSearchBookmarks": false,
+  "shouldSearchRecentFiles": true,
   "pathDisplayFormat": 1,
   "hidePathIfRoot": true,
   "enabledRelatedItems": [
@@ -65,14 +68,48 @@
   "fileExtAllowList": [
     "canvas"
   ],
-  "enableMatchPriorityAdjustments": true,
   "matchPriorityAdjustments": {
-    "isOpenInEditor": 0.85,
-    "isBookmarked": 0,
-    "isRecent": 1,
-    "file": -0.95,
-    "alias": -0.95,
-    "h1": -0.9
+    "isEnabled": true,
+    "adjustments": {
+      "isOpenInEditor": {
+        "value": 0.85,
+        "label": "Open items"
+      },
+      "isBookmarked": {
+        "value": 0,
+        "label": "Bookmarked items"
+      },
+      "isRecent": {
+        "value": 1,
+        "label": "Recent items"
+      },
+      "isAttachment": {
+        "value": 0,
+        "label": "Attachment file types"
+      },
+      "file": {
+        "value": 0.05,
+        "label": "Filenames"
+      },
+      "alias": {
+        "value": 0.05,
+        "label": "Aliases"
+      },
+      "unresolved": {
+        "value": 0,
+        "label": "Unresolved filenames"
+      },
+      "h1": {
+        "value": -0.45,
+        "label": "H₁ headings"
+      }
+    },
+    "fileExtAdjustments": {
+      "canvas": {
+        "value": 0,
+        "label": "Canvas files"
+      }
+    }
   },
   "quickFilters": {
     "resetKey": "0",
@@ -91,113 +128,162 @@
       "Ctrl",
       "Alt"
     ],
-    "facetList": [
-      {
+    "facetList": {
+      "Heading": {
         "id": "Heading",
         "mode": 4,
         "label": "headings",
         "isActive": true,
         "isAvailable": true
       },
-      {
+      "Tag": {
         "id": "Tag",
         "mode": 4,
         "label": "tags",
         "isActive": true,
         "isAvailable": true
       },
-      {
+      "Callout": {
         "id": "Callout",
         "mode": 4,
         "label": "callouts",
         "isActive": true,
         "isAvailable": true
       },
-      {
+      "Link": {
         "id": "Link",
         "mode": 4,
         "label": "links",
         "isActive": true,
         "isAvailable": true
       },
-      {
+      "Embed": {
         "id": "Embed",
         "mode": 4,
         "label": "embeds",
         "isActive": true,
         "isAvailable": true
       },
-      {
+      "canvas-node-file": {
         "id": "canvas-node-file",
         "mode": 4,
         "label": "file cards",
         "isActive": false,
         "isAvailable": false
       },
-      {
+      "canvas-node-text": {
         "id": "canvas-node-text",
         "mode": 4,
         "label": "text cards",
         "isActive": false,
         "isAvailable": false
       },
-      {
+      "canvas-node-link": {
         "id": "canvas-node-link",
         "mode": 4,
         "label": "link cards",
         "isActive": false,
         "isAvailable": false
       },
-      {
+      "canvas-node-group": {
         "id": "canvas-node-group",
         "mode": 4,
         "label": "groups",
         "isActive": false,
         "isAvailable": false
       },
-      {
+      "backlink": {
         "id": "backlink",
         "mode": 128,
         "label": "backlinks",
         "isActive": false,
         "isAvailable": true
       },
-      {
+      "outgoing-link": {
         "id": "outgoing-link",
         "mode": 128,
         "label": "outgoing links",
         "isActive": false,
         "isAvailable": true
       },
-      {
+      "disk-location": {
         "id": "disk-location",
         "mode": 128,
         "label": "disk location",
         "isActive": false,
         "isAvailable": true
       },
-      {
+      "bookmarks-file": {
         "id": "bookmarks-file",
         "mode": 32,
         "label": "files",
         "isActive": false,
         "isAvailable": true
       },
-      {
+      "bookmarks-folder": {
         "id": "bookmarks-folder",
         "mode": 32,
         "label": "folders",
         "isActive": false,
         "isAvailable": true
       },
-      {
+      "bookmarks-search": {
         "id": "bookmarks-search",
         "mode": 32,
         "label": "searches",
         "isActive": false,
         "isAvailable": true
+      },
+      "pinnedCommands": {
+        "id": "pinnedCommands",
+        "mode": 64,
+        "label": "pinned",
+        "isActive": false,
+        "isAvailable": true
+      },
+      "recentCommands": {
+        "id": "recentCommands",
+        "mode": 64,
+        "label": "recent",
+        "isActive": false,
+        "isAvailable": true
+      },
+      "recentFilesSearch": {
+        "id": "recentFilesSearch",
+        "mode": 16,
+        "label": "recent files",
+        "isActive": false,
+        "isAvailable": true
+      },
+      "bookmarksSearch": {
+        "id": "bookmarksSearch",
+        "mode": 16,
+        "label": "bookmarks",
+        "isActive": false,
+        "isAvailable": true
+      },
+      "filenamesSearch": {
+        "id": "filenamesSearch",
+        "mode": 16,
+        "label": "filenames",
+        "isActive": false,
+        "isAvailable": true
+      },
+      "headingsSearch": {
+        "id": "headingsSearch",
+        "mode": 16,
+        "label": "headings",
+        "isActive": false,
+        "isAvailable": true
+      },
+      "externalFilesSearch": {
+        "id": "externalFilesSearch",
+        "mode": 16,
+        "label": "external files",
+        "isActive": false,
+        "isAvailable": true
       }
-    ],
+    },
     "shouldResetActiveFacets": false,
     "shouldShowFacetInstructions": true
   },
@@ -258,5 +344,17 @@
       "modifiers": null,
       "key": "Backspace"
     }
+  ],
+  "escapeCmdChar": "!",
+  "mobileLauncher": {
+    "isEnabled": false,
+    "modeString": "HeadingsList",
+    "iconName": "",
+    "coreLauncherButtonIconSelector": "span.clickable-icon",
+    "coreLauncherButtonSelector": ".mobile-navbar-action:has(span.clickable-icon svg.svg-icon.lucide-plus-circle)"
+  },
+  "allowCreateNewFileInModeNames": [
+    "Standard",
+    "HeadingsList"
   ]
 }
