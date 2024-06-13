@@ -333,5 +333,5 @@ Add `!` before local link.
 
 ```bash
 ln -s obsidian-style-guide/.obsidian.vimrc .obsidian.vimrc
-ln -s obsidian-style-guide .obsidian
+ln -s obsidian-style-guide/.cfg/obsidian .obsidian
 ```
