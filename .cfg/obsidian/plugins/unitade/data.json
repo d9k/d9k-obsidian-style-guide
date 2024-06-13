@@ -8,7 +8,7 @@
   "ignore_extensions": "",
   "ignore_masks": "",
   "is_grouped": true,
-  "grouped_extensions": "md: txt;",
+  "grouped_extensions": "",
   "mobile_settings": {
     "enable": false,
     "extensions": "txt",
