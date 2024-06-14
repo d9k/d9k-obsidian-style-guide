@@ -121,7 +121,7 @@
           "disabled": false
         }
       ],
-      "collapsed": false,
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -318,23 +318,6 @@
       "cursorRegexEnd": "^"
     },
     {
-      "name": "checkbox: partially done",
-      "rules": [
-        {
-          "from": "- \\[.\\]",
-          "to": "- [/]",
-          "caseInsensitive": false,
-          "global": false,
-          "multiline": false,
-          "sticky": false,
-          "disabled": false
-        }
-      ],
-      "collapsed": true,
-      "cursorRegexStart": "$",
-      "cursorRegexEnd": "^"
-    },
-    {
       "name": "__test example: duplicate word__",
       "rules": [
         {
@@ -357,41 +340,6 @@
         {
           "from": "^([ \\t]*[\\-]{0,1})",
           "to": "$1 :balloon:",
-          "caseInsensitive": false,
-          "global": false,
-          "multiline": false,
-          "sticky": false,
-          "disabled": false
-        }
-      ],
-      "collapsed": true,
-      "cursorRegexStart": "$",
-      "cursorRegexEnd": "^"
-    },
-    {
-      "name": "checkbox: suspended",
-      "rules": [
-        {
-          "from": "- \\[.\\]",
-          "to": "- [-]",
-          "caseInsensitive": false,
-          "global": false,
-          "multiline": false,
-          "sticky": false,
-          "disabled": false
-        },
-        {
-          "from": "^([ \\t]*)- ([^\\[])",
-          "to": "$1- [-] $2",
-          "caseInsensitive": false,
-          "global": false,
-          "multiline": false,
-          "sticky": false,
-          "disabled": false
-        },
-        {
-          "from": "^([ \\t]*)- \\[(.[^\\]])",
-          "to": "$1- [-] [$2",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
@@ -565,7 +513,7 @@
           "disabled": false
         }
       ],
-      "collapsed": false,
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -582,7 +530,7 @@
           "disabled": false
         }
       ],
-      "collapsed": false,
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -601,6 +549,119 @@
         {
           "from": "^(\\\\\\[\\\\\\])$",
           "to": "\\[...\\]",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": true,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "fix tabs list from browser",
+      "rules": [
+        {
+          "from": "chrome-extension:\\/\\/gcjdagaoojgeilcobhibkgbodajcojda\\/data\\/offline\\/index\\.html\\?rd=",
+          "to": "",
+          "caseInsensitive": false,
+          "global": true,
+          "multiline": true,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "║ ",
+          "to": "",
+          "caseInsensitive": false,
+          "global": true,
+          "multiline": true,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "chrome-extension:\\/\\/blaaajhemilngeeffpbfkdjjoefldkok\\/blocked\\.html\\?[0-9]+&",
+          "to": "",
+          "caseInsensitive": false,
+          "global": true,
+          "multiline": true,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": true,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "checkbox: suspended",
+      "rules": [
+        {
+          "from": "- \\[.\\]",
+          "to": "- [-]",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "^([ \\t]*)- ([^\\[])",
+          "to": "$1- [-] $2",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "^([ \\t]*)- \\[(.[^\\]])",
+          "to": "$1- [-] [$2",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": true,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "checkbox: partially done",
+      "rules": [
+        {
+          "from": "- \\[.\\]",
+          "to": "- [/]",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": false,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "header checkbox: done",
+      "rules": [
+        {
+          "from": "(#+.*):black_square_button:[ ]*",
+          "to": "$1",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "(#+)",
+          "to": "$1 :white_check_mark:",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
