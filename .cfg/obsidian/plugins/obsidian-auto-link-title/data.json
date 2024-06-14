@@ -4,7 +4,11 @@
   "linkRegex": {},
   "linkLineRegex": {},
   "imageRegex": {},
-  "shouldReplaceSelection": true,
   "enhanceDefaultPaste": false,
-  "websiteBlacklist": ""
+  "shouldPreserveSelectionAsTitle": false,
+  "enhanceDropEvents": true,
+  "websiteBlacklist": "",
+  "maximumTitleLength": 0,
+  "useNewScraper": true,
+  "shouldReplaceSelection": true
 }
