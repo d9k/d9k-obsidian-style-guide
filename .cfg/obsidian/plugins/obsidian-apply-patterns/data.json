@@ -648,32 +648,6 @@
       "cursorRegexEnd": "^"
     },
     {
-      "name": "header checkbox: done",
-      "rules": [
-        {
-          "from": "(#+.*):black_square_button:[ ]*",
-          "to": "$1",
-          "caseInsensitive": false,
-          "global": false,
-          "multiline": false,
-          "sticky": false,
-          "disabled": false
-        },
-        {
-          "from": "(#+)",
-          "to": "$1 :white_check_mark:",
-          "caseInsensitive": false,
-          "global": false,
-          "multiline": false,
-          "sticky": false,
-          "disabled": false
-        }
-      ],
-      "collapsed": true,
-      "cursorRegexStart": "$",
-      "cursorRegexEnd": "^"
-    },
-    {
       "name": "path/location to folder/directory/file",
       "rules": [
         {
@@ -748,6 +722,49 @@
         {
           "from": "^([ \\t]*)-*[ \\t]*([^\\n\\r]*)",
           "to": "$1- `$2`",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": true,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "header checkbox: done",
+      "rules": [
+        {
+          "from": "(#+.*):black_square_button:[ ]*",
+          "to": "$1",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "(#+)",
+          "to": "$1 :white_check_mark:",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": false,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "header checkbox: todo",
+      "rules": [
+        {
+          "from": "(#+)[ ]*",
+          "to": "$1 :black_square_button: ",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
