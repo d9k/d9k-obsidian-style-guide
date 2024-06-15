@@ -537,5 +537,14 @@
       ],
       "key": "H"
     }
+  ],
+  "obsidian-editor-shortcuts:redo": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Z"
+    }
   ]
 }
