@@ -8,15 +8,6 @@
       "key": "S"
     }
   ],
-  "workspace:split-horizontal": [
-    {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
-      "key": "H"
-    }
-  ],
   "workspace:split-vertical": [
     {
       "modifiers": [
@@ -536,6 +527,15 @@
         "Mod"
       ],
       "key": "2"
+    }
+  ],
+  "obsidian-editor-shortcuts:goToPrevHeading": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "H"
     }
   ]
 }
