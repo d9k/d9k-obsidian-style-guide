@@ -717,7 +717,7 @@
       "cursorRegexEnd": "^"
     },
     {
-      "name": "inline code",
+      "name": "inline code (list item) (`)",
       "rules": [
         {
           "from": "^([ \\t]*)-*[ \\t]*([^\\n\\r]*)",
@@ -782,6 +782,40 @@
         {
           "from": "^([ \\t]*)-*[ \\t]*([^\\n\\r]*)",
           "to": "$1- :newspaper: $2",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": true,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "discussion/forum link",
+      "rules": [
+        {
+          "from": "^([ \\t]*)-*[ \\t]*([^\\n\\r]*)",
+          "to": "$1- :speech_balloon: $2",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": true,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "inline code (`)",
+      "rules": [
+        {
+          "from": "([^\\n\\r]*)",
+          "to": "`$1`",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
