@@ -45,7 +45,8 @@
   "editor:swap-line-down": [
     {
       "modifiers": [
-        "Alt"
+        "Mod",
+        "Shift"
       ],
       "key": "ArrowDown"
     }
@@ -53,7 +54,8 @@
   "editor:swap-line-up": [
     {
       "modifiers": [
-        "Alt"
+        "Mod",
+        "Shift"
       ],
       "key": "ArrowUp"
     }
@@ -187,14 +189,6 @@
       "key": "M"
     }
   ],
-  "editor:toggle-code": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "C"
-    }
-  ],
   "workspace:close-others-tab-group": [
     {
       "modifiers": [
@@ -233,6 +227,12 @@
       "modifiers": [
         "Alt",
         "Shift"
+      ],
+      "key": "C"
+    },
+    {
+      "modifiers": [
+        "Alt"
       ],
       "key": "C"
     }
@@ -545,6 +545,24 @@
         "Shift"
       ],
       "key": "Z"
+    }
+  ],
+  "app:go-back": [],
+  "app:go-forward": [],
+  "heycalmdown-navigate-cursor-history:cursor-position-forward": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "heycalmdown-navigate-cursor-history:cursor-position-backward": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowUp"
     }
   ]
 }
