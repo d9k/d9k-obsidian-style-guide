@@ -15,5 +15,6 @@
   "obsidian-trim-whitespace",
   "templater-obsidian",
   "obsidian-vimrc-support",
-  "unitade"
+  "unitade",
+  "obsidian-scroll-offset"
 ]
