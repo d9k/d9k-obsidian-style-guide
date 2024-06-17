@@ -651,17 +651,8 @@
       "name": "path/location to folder/directory/file",
       "rules": [
         {
-          "from": "^",
-          "to": "- :open_file_folder: `",
-          "caseInsensitive": false,
-          "global": false,
-          "multiline": false,
-          "sticky": false,
-          "disabled": false
-        },
-        {
-          "from": "$",
-          "to": "`",
+          "from": "([^\\r\\n]*)",
+          "to": "- :open_file_folder: `$1`",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
@@ -669,7 +660,7 @@
           "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -712,7 +703,7 @@
           "disabled": false
         }
       ],
-      "collapsed": false,
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -729,7 +720,7 @@
           "disabled": false
         }
       ],
-      "collapsed": false,
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -823,7 +814,7 @@
           "disabled": false
         }
       ],
-      "collapsed": false,
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -833,6 +824,23 @@
         {
           "from": "([^\\n\\r]*)",
           "to": "_$1_",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": true,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "JIRA task link",
+      "rules": [
+        {
+          "from": "\\[\\[([^\\]\\[]*)\\] ([^\\]]*)\\]\\(([^)]*)\\)",
+          "to": "[$1]($3) $2",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
