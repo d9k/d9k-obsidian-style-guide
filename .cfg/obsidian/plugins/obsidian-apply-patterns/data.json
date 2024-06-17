@@ -197,7 +197,7 @@
       "cursorRegexEnd": "^"
     },
     {
-      "name": "quote",
+      "name": "quote (_\")",
       "rules": [
         {
           "from": "^",
@@ -734,7 +734,7 @@
       "cursorRegexEnd": "^"
     },
     {
-      "name": "header checkbox: done",
+      "name": "header checkbox task: done",
       "rules": [
         {
           "from": "(#+.*):black_square_button:[ ]*",
@@ -760,7 +760,7 @@
       "cursorRegexEnd": "^"
     },
     {
-      "name": "header checkbox: todo",
+      "name": "header checkbox task: todo",
       "rules": [
         {
           "from": "(#+)[ ]*",
@@ -816,6 +816,23 @@
         {
           "from": "([^\\n\\r]*)",
           "to": "`$1`",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": false,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "quote (_)",
+      "rules": [
+        {
+          "from": "([^\\n\\r]*)",
+          "to": "_$1_",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
