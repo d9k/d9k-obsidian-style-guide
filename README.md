@@ -3,7 +3,6 @@
 Предназначено для работы в [Obsidian](https://obsidian.md/) с установленным расширением [Icon Shortcodes](https://github.com/aidenlx/obsidian-icon-shortcodes).
 - See :beginner: [Basic formatting syntax | Obsidian Help](https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax)
 - See :tv: [Every USEFUL Markdown Syntax That I Use in Obsidian | FromSergio | YT](https://www.youtube.com/watch?v=d8fXEhWy_rY)
-
 ## Настройки расширения Icon Shortcodes:
 
 ```
@@ -162,7 +161,7 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :golf: поиск места в коде
 - :zap: CLI command
 - :gear: internals
-- :luc_play: action
+- :luc_play: action, event
 - :deciduous_tree: project
 
 ### Поиск

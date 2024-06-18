@@ -652,7 +652,7 @@
       "rules": [
         {
           "from": "([^\\r\\n]*)",
-          "to": "- :open_file_folder: `$1`",
+          "to": ":open_file_folder: `$1`",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
