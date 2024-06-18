@@ -69,14 +69,7 @@
       "key": "L"
     }
   ],
-  "editor:delete-paragraph": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "E"
-    }
-  ],
+  "editor:delete-paragraph": [],
   "markdown:toggle-preview": [
     {
       "modifiers": [

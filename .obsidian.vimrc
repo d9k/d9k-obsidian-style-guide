@@ -2,6 +2,7 @@
 exmap checkmark obcommand editor:cycle-list-checklist
 " doesn't work in multiline visual mode
 nmap m :checkmark
+nmap <Space> :checkmark
 
 " doesn't work 
 "nmap n <C-l>
@@ -17,6 +18,11 @@ exmap linkloadtitle obcommand obsidian-auto-link-title:enhance-url-with-title
 
 "nmap T :linkloadtitle | j
 nmap t :linkloadtitle 
+
+nmap <C-e> <C-u>
+" doesn't work
+"nmap <C-S-d> <C-u>
+
 " doesn't work
 "nmap T tj
 
@@ -32,3 +38,6 @@ set clipboard=unnamed
 exmap tabclose obcommand workspace:close
 exmap tabc :tabclose
 exmap q :tabclose
+
+exmap nextheading obcommand obsidian-editor-shortcuts:goToNextHeading
+
