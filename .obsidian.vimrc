@@ -41,3 +41,5 @@ exmap q :tabclose
 
 exmap nextheading obcommand obsidian-editor-shortcuts:goToNextHeading
 
+exmap newtab obcommand workspace:new-tab
+nmap n :newtab
