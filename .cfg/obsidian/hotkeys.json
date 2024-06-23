@@ -570,5 +570,20 @@
   "pane-relief:put-4th": [],
   "pane-relief:put-2nd": [],
   "pane-relief:put-3rd": [],
-  "pane-relief:put-1st": []
+  "pane-relief:put-1st": [],
+  "workspace:new-tab": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "T"
+    },
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "N"
+    }
+  ],
+  "templater-obsidian:create-new-note-from-template": []
 }
