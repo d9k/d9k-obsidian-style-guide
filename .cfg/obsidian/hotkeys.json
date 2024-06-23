@@ -583,7 +583,12 @@
         "Alt"
       ],
       "key": "N"
+    },
+    {
+      "modifiers": [],
+      "key": "F1"
     }
   ],
-  "templater-obsidian:create-new-note-from-template": []
+  "templater-obsidian:create-new-note-from-template": [],
+  "app:open-help": []
 }
