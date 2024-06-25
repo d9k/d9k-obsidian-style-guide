@@ -562,15 +562,87 @@
   "pane-relief:go-6th": [],
   "pane-relief:go-8th": [],
   "pane-relief:go-last": [],
-  "pane-relief:put-last": [],
-  "pane-relief:put-8th": [],
-  "pane-relief:put-7th": [],
-  "pane-relief:put-6th": [],
-  "pane-relief:put-5th": [],
-  "pane-relief:put-4th": [],
-  "pane-relief:put-2nd": [],
-  "pane-relief:put-3rd": [],
-  "pane-relief:put-1st": [],
+  "pane-relief:put-last": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "0"
+    }
+  ],
+  "pane-relief:put-8th": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "8"
+    }
+  ],
+  "pane-relief:put-7th": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "7"
+    }
+  ],
+  "pane-relief:put-6th": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "6"
+    }
+  ],
+  "pane-relief:put-5th": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "5"
+    }
+  ],
+  "pane-relief:put-4th": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "4"
+    }
+  ],
+  "pane-relief:put-2nd": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "2"
+    }
+  ],
+  "pane-relief:put-3rd": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "3"
+    }
+  ],
+  "pane-relief:put-1st": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "1"
+    }
+  ],
   "workspace:new-tab": [
     {
       "modifiers": [
