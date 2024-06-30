@@ -287,6 +287,13 @@
         "Mod"
       ],
       "key": "O"
+    },
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "H"
     }
   ],
   "darlal-switcher-plus:switcher-plus:open-headings": [
