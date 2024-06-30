@@ -694,7 +694,7 @@
       "name": "documentation/tutorial",
       "rules": [
         {
-          "from": "^([ \\t]+)-*",
+          "from": "^([ \\t]*)-*[ \\t]*",
           "to": "$1- :beginner: ",
           "caseInsensitive": false,
           "global": false,
