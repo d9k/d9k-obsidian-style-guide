@@ -703,8 +703,8 @@
       "name": "documentation/tutorial",
       "rules": [
         {
-          "from": "^([ \\t]*)-*[ \\t]*",
-          "to": "$1- :beginner: ",
+          "from": "",
+          "to": "",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
@@ -858,6 +858,49 @@
         },
         {
           "from": " - Jira",
+          "to": "",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": false,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "to heading lvl. 3",
+      "rules": [
+        {
+          "from": "^[\\t #\\-]*",
+          "to": "### ",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": false,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "asked",
+      "rules": [
+        {
+          "from": "^([\\t #\\-\\[x\\]]*)",
+          "to": "$1:speaking_head_in_silhouette:",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": ":speech_balloon:",
           "to": "",
           "caseInsensitive": false,
           "global": false,
