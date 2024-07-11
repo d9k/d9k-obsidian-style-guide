@@ -148,7 +148,7 @@
           "disabled": false
         }
       ],
-      "collapsed": false,
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -297,7 +297,7 @@
           "disabled": false
         }
       ],
-      "collapsed": false,
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -623,7 +623,7 @@
       "cursorRegexEnd": "^"
     },
     {
-      "name": "checkbox: suspended",
+      "name": "[-] checkbox: suspended",
       "rules": [
         {
           "from": "- \\[.\\]",
@@ -849,8 +849,8 @@
       "name": "quote (_)",
       "rules": [
         {
-          "from": "([^\\n\\r]*)",
-          "to": "_$1_",
+          "from": "([ \\t-]*)([^\\n\\r]*)",
+          "to": "$1_$2_",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
@@ -858,7 +858,7 @@
           "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
