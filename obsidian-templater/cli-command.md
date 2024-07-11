@@ -1,1 +1,1 @@
-:zap:
+- :zap: `<% tp.file.cursor() %>`
