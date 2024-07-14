@@ -73,7 +73,8 @@
   "markdown:toggle-preview": [
     {
       "modifiers": [
-        "Alt"
+        "Alt",
+        "Shift"
       ],
       "key": "R"
     }
@@ -409,6 +410,12 @@
         "Shift"
       ],
       "key": "F"
+    },
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "R"
     }
   ],
   "workspace:close": [
@@ -676,6 +683,15 @@
         "Shift"
       ],
       "key": "H"
+    }
+  ],
+  "editor:toggle-bullet-list": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "L"
     }
   ]
 }
