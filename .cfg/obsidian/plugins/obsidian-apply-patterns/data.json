@@ -157,7 +157,7 @@
           "disabled": false
         }
       ],
-      "collapsed": false,
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -297,8 +297,17 @@
           "disabled": false
         },
         {
-          "from": ": (.*)$",
-          "to": "| /r/$1",
+          "from": ": r/",
+          "to": "| /r/",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "^([ \\t]*)-*[ \\t]*([^\\n\\r]*)",
+          "to": "$1- :speech_balloon: $2",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
@@ -667,7 +676,7 @@
       "cursorRegexEnd": "^"
     },
     {
-      "name": "checkbox: partially done",
+      "name": "[/] checkbox: partially done",
       "rules": [
         {
           "from": "- \\[.\\]",
@@ -867,7 +876,7 @@
           "disabled": false
         }
       ],
-      "collapsed": false,
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
