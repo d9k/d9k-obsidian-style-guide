@@ -839,6 +839,32 @@
       "cursorRegexEnd": "^"
     },
     {
+      "name": "# (/) header checkbox task: suspend / cancel",
+      "rules": [
+        {
+          "from": "(#+.*):black_square_button:[ ]*",
+          "to": "$1",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "(#+)",
+          "to": "$1 :no_entry_sign:",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": true,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
       "name": "article link",
       "rules": [
         {
@@ -856,11 +882,11 @@
       "cursorRegexEnd": "^"
     },
     {
-      "name": "discussion/forum link",
+      "name": "inline code (`)",
       "rules": [
         {
-          "from": "^([ \\t]*)-*[ \\t]*([^\\n\\r]*)",
-          "to": "$1- :speech_balloon: $2",
+          "from": "([^\\n\\r]*)",
+          "to": "`$1`",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
@@ -873,11 +899,11 @@
       "cursorRegexEnd": "^"
     },
     {
-      "name": "inline code (`)",
+      "name": "discussion/forum link",
       "rules": [
         {
-          "from": "([^\\n\\r]*)",
-          "to": "`$1`",
+          "from": "^([ \\t]*)-*[ \\t]*([^\\n\\r]*)",
+          "to": "$1- :speech_balloon: $2",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
