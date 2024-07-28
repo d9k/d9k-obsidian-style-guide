@@ -3,6 +3,7 @@
 Предназначено для работы в [Obsidian](https://obsidian.md/) с установленным расширением [Icon Shortcodes](https://github.com/aidenlx/obsidian-icon-shortcodes).
 - See :beginner: [Basic formatting syntax | Obsidian Help](https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax)
 - See :tv: [Every USEFUL Markdown Syntax That I Use in Obsidian | FromSergio | YT](https://www.youtube.com/watch?v=d8fXEhWy_rY)
+
 ## Настройки расширения Icon Shortcodes:
 
 ```
@@ -98,9 +99,10 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :electric_plug: environment, connection, credentials
 - :rotating_light: error code/text
 - :warning: warning
+- :toolbox: tools
 - :open_file_folder: path to file locally/on repo
 - :balloon: interactive demo
-- :beginner: документация
+- :beginner: documentation
 - 📶 stats
 - ⏩ MVP
 - 🚪 project homepage ^d9k-homepage-2023-11-08
@@ -123,6 +125,7 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :carpentry_saw: big refactor
 - :lower_left_paintbrush: дизайн / CSS / styling
 - :arrow_right: route
+- :point_right::blue_book: to documentation / README
 
 ### Написание статей, структурирование записей
 
@@ -271,12 +274,13 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - 🌷:seedling:🌸 🌿 fresh
 - :obs_quote_glyph: 🖇️ :paperclip:  quote
 - :card_file_box: :card_index_dividers: 📑 📇 🗓️ 🗄️ 🎬 💽 🪣🛢️🥡 📁 📂 🏕️ 📕 :briefcase: 🛄 🧊 💿 📐 🪤 :pushpin: 🌳 project
-- 🧰 tools
 - 🦕
+- 🗂️📒🗒️ 🗎 🗄 🕮 ✎🗒 🪄 📃 :luc_pen_tool: 📕📗⎙ 🖋️#️⃣ 📔 📓 🗄️ 📐 :pencil2: 🖍️ :writing_hand:  📝🖊️  ✍🏼 📑 💻 🧷 🖇️ ⌨ :keyboard: 🪢📣 𖥻 📼 🧺 ⚜️ :bulb:🤝 👣 🕯 🔆 🎇 🫙🏛️🏛 :teacher: 🪶 :flashlight: 👩‍⚖️ :point_right:📘 :point_right::beginner: 🌀  ✍🏽 ˗ doc
+- :arrow_up::arrow_down: #WebDev
 
-## Сворачивающиеся блоки
+## Foldable blocks
 
-### Общий случай
+### Common case
 
 <details>
 <summary>Example with &lt;details&gt; and &lt;summary&gt </summary>
@@ -285,7 +289,7 @@ alert('Hello, world!');
 </pre>
 </details>
 
-### HTML-код
+### HTML code
 
 Придётся использовать плагин Spoiler Block с кастомным стилем (CSS snippet).
 
@@ -295,7 +299,7 @@ alert('Hello, world!');
 </button>
 ```
 
-## Вставка изображений
+## Images embedding
 
 ![Engelbart|40](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
 
@@ -328,7 +332,16 @@ Add `!` before local link.
 
 ![[js-webassembly#^d9k-WASI-quote-2023-11-08]]
 
-## Installation (draft...)
+## Metadata
+
+- 2024.08 / 2023.11
+	- update time / created time
+- 2023.11
+	- create time only
+
+## Installation
+
+TODO
 
 ```bash
 ln -s obsidian-style-guide/.obsidian.vimrc .obsidian.vimrc
