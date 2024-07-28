@@ -456,7 +456,7 @@
     },
     {
       "modifiers": [
-        "Alt",
+        "Mod",
         "Shift"
       ],
       "key": "Enter"
@@ -692,6 +692,15 @@
         "Shift"
       ],
       "key": "L"
+    }
+  ],
+  "obsidian-editor-shortcuts:insertLineAbove": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "Enter"
     }
   ]
 }
