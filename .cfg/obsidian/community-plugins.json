@@ -19,5 +19,6 @@
   "obsidian-scroll-offset",
   "heycalmdown-navigate-cursor-history",
   "pane-relief",
-  "various-complements"
+  "various-complements",
+  "vim-yank-highlight"
 ]
