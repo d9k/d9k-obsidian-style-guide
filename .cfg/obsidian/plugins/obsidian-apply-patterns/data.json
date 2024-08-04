@@ -164,9 +164,18 @@
           "multiline": false,
           "sticky": false,
           "disabled": false
+        },
+        {
+          "from": "\\[([^\\[]+) - Ask Ubuntu\\]",
+          "to": ":speech_balloon: [$1 | Ask Ubuntu]",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
         }
       ],
-      "collapsed": false,
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -848,7 +857,7 @@
       "cursorRegexEnd": "^"
     },
     {
-      "name": "# (/) header checkbox task: suspend / cancel",
+      "name": "# (\\) header checkbox task: suspend / cancel",
       "rules": [
         {
           "from": "(#+.*):black_square_button:[ ]*",
