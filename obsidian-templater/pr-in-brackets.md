@@ -1,1 +1,0 @@
-\[[PR](<% tp.file.cursor() %>)\]
