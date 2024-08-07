@@ -44,43 +44,43 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 * :no_entry_sign: cancelled / susupended / fail to do
 * :trident: partial: task is big, with different status another file
 
-### Разделение по месту исполнения кода
+### Code execution location
 
 - :desktop_computer: frontend
 - :ice_cube: BFF
-- :luc_hard_drive: сервисы backend
+- :luc_hard_drive: backend service
 - :luc_database: database
 
-### Запросы
+### Requests
 
 - :luc_move_vertical: обмен запросами
 - :arrow_down: GET
 - :arrow_up: POST/PUT
 
-### Сравнение
+### Comparison
 
-- :scales: сравнение
-- #vs противопоставление двух вариантов
-- :scroll: список
-- :sparkles: плюс, feature
-- :microbe: минус, flaw
-- :question: нужен ответ
+- :scales: comparison of many options
+- #vs comparison of 2 options
+- :scroll: list
+- :sparkles: plus, feature
+- :microbe: minus, flaw
+- :question: answer needed
 
-### Ссылки
+### Links
 
-* :luc_git_pull_request: GitLab
+* :luc_git_pull_request: GitLab / repo
 * :art: Figma
 * :lady_beetle: tracker: bug
 * :sparkles: tracker: new/improvement
 
-### Темы/Категории
+### Subject/category
 
 - :muscle: self-development
 - :martial_arts_uniform: proficient knowledge
 - :surfer: just exploring possibilities (лёгкая увлекательная активность)
-- :shopping_trolley: покупки
+- :shopping_trolley: to buy
 
-### Контент/информация
+### Content/information
 
 - :horse_racing: YouTube Shorts
 - :tv: video
@@ -127,7 +127,7 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :arrow_right: route
 - :point_right::blue_book: to documentation / README
 
-### Написание статей, структурирование записей
+### Writing articles, structuring notes
 
 - :point_right::spiral_note_pad: write to textbook, the provide link
 - :memo: write note/summary
@@ -161,18 +161,18 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :gem: visual component
 - :link: usage
 - :arrow_right_hook: fn call
-- :golf: поиск места в коде
+- :golf: search for place in code
 - :zap: CLI command
 - :gear: internals
 - :luc_play: action, event
 - :deciduous_tree: project
 
-### Поиск
+### Search
 
 - :mag_right: to search ^af618e
 - :infinity: (potentially) infinite list (search, filter, infinite scrolling)
 - :eyes: ссылка на поиск с определёнными фильтрами
-- :luc_tag: :label: тэги, ключевые слова для поиска
+- :label: tags, keywords to find this chapter later
 
 ### Emotional valuation
 
@@ -182,7 +182,7 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :trophy: incredibly cool
 - :pick: hard/tedious work
 - :fallen_leaf: not related
-- :yawning_face: me lazy
+- :yawning_face: me lazy / not interested
 
 ### Planning
 
@@ -195,15 +195,15 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :lady_beetle: bugs count (открыто/закрыто=процнт_открытых_к_всего)
 - :bricks: commits count (месяц/год/всего)
 
-### Другое
+### Other
 
 - :mortar_board: theory, education
-- :joystick: игровое (развлечения)
-- :athletic_shoe: тренировка
-- :currency_exchange: обмен валют
-- _"Citation"_
+- :joystick: gaming (entertainment)
+- :athletic_shoe: training
+- :currency_exchange: currencies exchange
 - :heavy_dollar_sign: very paid (free ver. non-existent/very limited)
 - :dove_of_peace: free
+- _"Citation"_
 - (Σ) result, conclusion, brief solution
 
 ### TODO
