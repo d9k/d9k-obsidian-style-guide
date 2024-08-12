@@ -809,7 +809,7 @@
           "disabled": false
         }
       ],
-      "collapsed": false,
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -986,7 +986,7 @@
       "cursorRegexEnd": "^"
     },
     {
-      "name": "to heading lvl. 3",
+      "name": "### to heading lvl. 3",
       "rules": [
         {
           "from": "^[\\t #\\-]*",
@@ -996,9 +996,18 @@
           "multiline": false,
           "sticky": false,
           "disabled": false
+        },
+        {
+          "from": "$",
+          "to": "\\n",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -1067,7 +1076,50 @@
           "disabled": false
         }
       ],
-      "collapsed": false,
+      "collapsed": true,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "``` multiline code block",
+      "rules": [
+        {
+          "from": "([^¶]+)",
+          "to": "```\\n$1\\n```",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": true,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": true,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "# can't reproduce test header task",
+      "rules": [
+        {
+          "from": "[ ]*:black_square_button:[ ]*",
+          "to": " ",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "(#+)[ ]*",
+          "to": "$1 :woman-shrugging: ",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     }
