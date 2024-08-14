@@ -1007,7 +1007,7 @@
           "disabled": false
         }
       ],
-      "collapsed": false,
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -1120,6 +1120,40 @@
         }
       ],
       "collapsed": true,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "# header investigate",
+      "rules": [
+        {
+          "from": "(#+)[ ]*",
+          "to": "$1 :sleuth_or_spy: ",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": true,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "- `JSON value escape`",
+      "rules": [
+        {
+          "from": "[- ]*\"([^\"]+)\":[ ]*([^\\n\\r]+)",
+          "to": "- `$1: $2`",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     }
