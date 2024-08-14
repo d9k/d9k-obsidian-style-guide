@@ -72,7 +72,7 @@
   "includeCurrentVaultOnlyFilesUnderCurrentDirectory": false,
   "excludeCurrentVaultWordPatterns": [],
   "enableCustomDictionaryComplement": true,
-  "customDictionaryPaths": "markdown-autocomplete/autocomplete-names.txt",
+  "customDictionaryPaths": "markdown-autocomplete/autocomplete-names-youtube.txt\nmarkdown-autocomplete/autocomplete-names-habr.txt",
   "columnDelimiter": "Tab",
   "customDictionaryWordRegexPattern": "",
   "delimiterToHideSuggestion": "",
