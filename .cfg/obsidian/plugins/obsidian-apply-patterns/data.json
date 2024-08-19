@@ -723,7 +723,7 @@
       "name": "path/location to folder/directory/file",
       "rules": [
         {
-          "from": "([^\\r\\n\\t\\- ]+[^\\r\\n]*[^\\r\\n\\t ]+)",
+          "from": "([^\\r\\n\\t\\-\\[\\] ]+[^\\r\\n]*[^\\r\\n\\t ]+)",
           "to": ":open_file_folder: `$1`",
           "caseInsensitive": false,
           "global": false,
