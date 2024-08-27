@@ -1,6 +1,7 @@
 # d9k-obsidian-style-guide
 
 Предназначено для работы в [Obsidian](https://obsidian.md/) с установленным расширением [Icon Shortcodes](https://github.com/aidenlx/obsidian-icon-shortcodes).
+
 - See :beginner: [Basic formatting syntax | Obsidian Help](https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax)
 - See :tv: [Every USEFUL Markdown Syntax That I Use in Obsidian | FromSergio | YT](https://www.youtube.com/watch?v=d8fXEhWy_rY)
 
@@ -53,7 +54,7 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 
 ### Requests
 
-- :luc_move_vertical: обмен запросами
+- :luc_move_vertical: requests exchange
 - :arrow_down: GET
 - :arrow_up: POST/PUT
 
@@ -161,7 +162,7 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :gem: visual component
 - :link: usage
 - :arrow_right_hook: fn call
-- :golf: search for place in code
+- :golf: search for place in code (usually to edit / related to task context)
 - :zap: CLI command
 - :gear: internals
 - :luc_play: action, event
