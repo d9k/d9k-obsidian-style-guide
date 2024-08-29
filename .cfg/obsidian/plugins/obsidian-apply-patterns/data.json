@@ -800,6 +800,15 @@
       "name": "# [ ] header checkbox task: todo",
       "rules": [
         {
+          "from": "^([ -]*)([^#])",
+          "to": "## $2",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
           "from": "(#+)[ -]*",
           "to": "$1 :black_square_button: ",
           "caseInsensitive": false,
@@ -809,7 +818,7 @@
           "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
