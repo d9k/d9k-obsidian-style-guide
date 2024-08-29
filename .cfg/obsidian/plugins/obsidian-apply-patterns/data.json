@@ -85,6 +85,15 @@
           "disabled": false
         },
         {
+          "from": "\\[([a-zA-Z0-9_-]+)\\/(.+)\\]\\((https://github.com/(.+))\\)",
+          "to": "[$2]($3) by [$1](https://github.com/$1)",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
           "from": "(\\[[^\\[]* \\| YT\\])",
           "to": ":tv: $1",
           "caseInsensitive": false,
@@ -184,7 +193,7 @@
           "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
