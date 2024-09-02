@@ -729,8 +729,17 @@
       "cursorRegexEnd": "^"
     },
     {
-      "name": "path/location to folder/directory/file",
+      "name": "`path/location to folder/directory/file`",
       "rules": [
+        {
+          "from": "`",
+          "to": "",
+          "caseInsensitive": false,
+          "global": true,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
         {
           "from": "([^\\r\\n\\t\\-\\[\\] ]+[^\\r\\n]*[^\\r\\n\\t ]+)",
           "to": ":open_file_folder: `$1`",
@@ -741,7 +750,7 @@
           "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -827,7 +836,7 @@
           "disabled": false
         }
       ],
-      "collapsed": false,
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -1199,6 +1208,23 @@
         {
           "from": "[- ]*\"([^\"]+)\":[ ]*([^\\n\\r]+)",
           "to": "- `$1: $2`",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": true,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "- [ ] inline error (list item) (`)",
+      "rules": [
+        {
+          "from": "^([ \\t]*)-*[ \\t]*([^\\n\\r]*)",
+          "to": "$1- [ ] :rotating_light: `$2`",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
