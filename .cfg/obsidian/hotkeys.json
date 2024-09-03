@@ -535,6 +535,12 @@
         "Shift"
       ],
       "key": "H"
+    },
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "G"
     }
   ],
   "obsidian-editor-shortcuts:redo": [
@@ -701,6 +707,15 @@
         "Shift"
       ],
       "key": "Enter"
+    }
+  ],
+  "pane-relief:focus-lock": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "K"
     }
   ]
 }
