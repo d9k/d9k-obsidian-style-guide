@@ -1,7 +1,7 @@
 {
   "strategy": "default",
   "cedictPath": "./cedict_ts.u8",
-  "matchStrategy": "partial",
+  "matchStrategy": "prefix",
   "fuzzyMatch": false,
   "minFuzzyMatchScore": 0.5,
   "matchingWithoutEmoji": true,
@@ -72,7 +72,7 @@
   "includeCurrentVaultOnlyFilesUnderCurrentDirectory": false,
   "excludeCurrentVaultWordPatterns": [],
   "enableCustomDictionaryComplement": true,
-  "customDictionaryPaths": "markdown-autocomplete/autocomplete-names-youtube.txt\nmarkdown-autocomplete/autocomplete-names-habr.txt",
+  "customDictionaryPaths": "markdown-autocomplete/autocomplete-meetings.txt\nmarkdown-autocomplete/autocomplete-names-habr.txt\nmarkdown-autocomplete/autocomplete-names-youtube.txt\n\n",
   "columnDelimiter": "Tab",
   "customDictionaryWordRegexPattern": "",
   "delimiterToHideSuggestion": "",
