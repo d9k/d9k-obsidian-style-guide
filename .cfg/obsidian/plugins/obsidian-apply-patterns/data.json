@@ -1235,9 +1235,35 @@
       "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
+    },
+    {
+      "name": "- `visual component`",
+      "rules": [
+        {
+          "from": "[`<>]+",
+          "to": "",
+          "caseInsensitive": false,
+          "global": true,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "^([ \\t]*)-*[ \\t]*([^\\n\\r]*)",
+          "to": "$1- :gem: `<$2>`",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": false,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "`",
+  "filterString": "",
   "commandFilterString": "",
   "commands": [],
   "apiVersion": 6,
