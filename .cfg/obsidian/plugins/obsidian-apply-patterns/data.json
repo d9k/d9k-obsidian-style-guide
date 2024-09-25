@@ -1067,9 +1067,18 @@
           "multiline": false,
           "sticky": false,
           "disabled": false
+        },
+        {
+          "from": "\\[x\\]",
+          "to": ":white_check_mark:",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -1263,7 +1272,7 @@
       "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "",
+  "filterString": "headi",
   "commandFilterString": "",
   "commands": [],
   "apiVersion": 6,
