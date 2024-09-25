@@ -19,7 +19,8 @@ exmap linkloadtitle obcommand obsidian-auto-link-title:enhance-url-with-title
 "nmap T :linkloadtitle | j
 nmap at :linkloadtitle 
 
-nmap <C-e> <C-u>
+nnoremap <C-e> <C-u>
+vnoremap <C-e> <C-u>
 " doesn't work
 "nmap <C-S-d> <C-u>
 
