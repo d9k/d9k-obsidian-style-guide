@@ -1,10 +1,12 @@
 .cfg/obsidian/bookmarks.json
 .cfg/obsidian/workspace.json
 .cfg/obsidian/plugins/duplicate-line
+.cfg/obsidian/plugins/hover-external-link
 .cfg/obsidian/plugins/link-favicon/data.json
 .cfg/obsidian/plugins/obsidian-icon-shortcodes
 .cfg/obsidian/plugins/obsidian-image-toolkit
 .cfg/obsidian/plugins/obsidian-quiet-outline
-.cfg/obsidian/plugins/hover-external-link
 .cfg/obsidian/plugins/recent-files-obsidian
+.cfg/obsidian/plugins/various-complements/histories.json
 obsidian-templater/_*
+markdown-autocomplete/_*
