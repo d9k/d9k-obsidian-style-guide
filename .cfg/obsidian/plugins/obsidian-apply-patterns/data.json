@@ -1313,7 +1313,70 @@
           "from": "'Access: Bearer [^']+'",
           "to": "\"Access: Bearer $BEARER\"",
           "caseInsensitive": false,
-          "global": false,
+          "global": true,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "[ \\t]*-H 'Accept[^']*'[ \\t]*[\\\\\\n\\r]*",
+          "to": "",
+          "caseInsensitive": false,
+          "global": true,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "[ \\t]*-H 'Cache[^']*'[ \\t]*[\\\\\\n\\r]*",
+          "to": "",
+          "caseInsensitive": false,
+          "global": true,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "[ \\t]*-H 'Pragma[^']*'[ \\t]*[\\\\\\n\\r]*",
+          "to": "",
+          "caseInsensitive": false,
+          "global": true,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "[ \\t]*-H 'Connection[^']*'[ \\t]*[\\\\\\n\\r]*",
+          "to": "",
+          "caseInsensitive": false,
+          "global": true,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "[ \\t]*-H 'Referer[^']*'[ \\t]*[\\\\\\n\\r]*",
+          "to": "",
+          "caseInsensitive": false,
+          "global": true,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "[ \\t]*-H 'Sec[^']*'[ \\t]*[\\\\\\n\\r]*",
+          "to": "",
+          "caseInsensitive": true,
+          "global": true,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "[ \\t]*-H 'User-Agent[^']*'[ \\t]*[\\\\\\n\\r]*",
+          "to": "",
+          "caseInsensitive": true,
+          "global": true,
           "multiline": false,
           "sticky": false,
           "disabled": false
