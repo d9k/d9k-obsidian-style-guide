@@ -1305,6 +1305,23 @@
       "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
+    },
+    {
+      "name": "curl fix",
+      "rules": [
+        {
+          "from": "'Access: Bearer [^']+'",
+          "to": "\"Access: Bearer $BEARER\"",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": false,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
     }
   ],
   "filterString": "",
