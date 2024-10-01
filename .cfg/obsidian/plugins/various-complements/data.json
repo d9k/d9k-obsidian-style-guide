@@ -72,7 +72,7 @@
   "includeCurrentVaultOnlyFilesUnderCurrentDirectory": false,
   "excludeCurrentVaultWordPatterns": [],
   "enableCustomDictionaryComplement": true,
-  "customDictionaryPaths": "markdown-autocomplete/autocomplete-meetings.txt\nmarkdown-autocomplete/autocomplete-names-habr.txt\nmarkdown-autocomplete/autocomplete-names-youtube.txt\n\n",
+  "customDictionaryPaths": "obsidian-style-guide/markdown-autocomplete/autocomplete-meetings.txt\nobsidian-style-guide/markdown-autocomplete/autocomplete-names-habr.txt\nobsidian-style-guide/markdown-autocomplete/autocomplete-names-youtube.txt\nobsidian-style-guide/markdown-autocomplete/autocomplete-time.txt\n",
   "columnDelimiter": "Tab",
   "customDictionaryWordRegexPattern": "",
   "delimiterToHideSuggestion": "",
