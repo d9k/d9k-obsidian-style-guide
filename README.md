@@ -4,6 +4,22 @@
 
 - See :beginner: [Basic formatting syntax | Obsidian Help](https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax)
 - See :tv: [Every USEFUL Markdown Syntax That I Use in Obsidian | FromSergio | YT](https://www.youtube.com/watch?v=d8fXEhWy_rY)
+- See [recommended plugins | d9k-textbook](https://github.com/d9k/d9k-textbook/blob/master/markdown/obsidian-plugins.md)
+
+## Structure
+
+- [Obsidian config][]
+
+...
+
+## Installation
+
+```bash
+ln -s obsidian-style-guide/.obsidian.vimrc .obsidian.vimrc
+ln -s obsidian-style-guide/.cfg/obsidian .obsidian
+```
+
+...
 
 ## Настройки расширения Icon Shortcodes:
 
@@ -278,6 +294,8 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - 🦕
 - 🗂️📒🗒️ 🗎 🗄 🕮 ✎🗒 🪄 📃 :luc_pen_tool: 📕📗⎙ 🖋️#️⃣ 📔 📓 🗄️ 📐 :pencil2: 🖍️ :writing_hand:  📝🖊️  ✍🏼 📑 💻 🧷 🖇️ ⌨ :keyboard: 🪢📣 𖥻 📼 🧺 ⚜️ :bulb:🤝 👣 🕯 🔆 🎇 🫙🏛️🏛 :teacher: 🪶 :flashlight: 👩‍⚖️ :point_right:📘 :point_right::beginner: 🌀  ✍🏽 ˗ doc
 - :arrow_up::arrow_down: #WebDev
+- :adhesive_bandage: validate fn
+- :anchor: path in UI
 
 ## Foldable blocks
 
@@ -340,11 +358,3 @@ Add `!` before local link.
 - 2023.11
 	- create time only
 
-## Installation
-
-TODO
-
-```bash
-ln -s obsidian-style-guide/.obsidian.vimrc .obsidian.vimrc
-ln -s obsidian-style-guide/.cfg/obsidian .obsidian
-```
