@@ -1,0 +1,3 @@
+```ts
+<% tp.file.cursor() %>
+```

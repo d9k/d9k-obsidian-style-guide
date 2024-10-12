@@ -1,0 +1,4 @@
+
+```bash
+<% tp.file.cursor() %>
+```
