@@ -82,7 +82,8 @@
   "editor:toggle-source": [
     {
       "modifiers": [
-        "Alt"
+        "Alt",
+        "Shift"
       ],
       "key": "L"
     }
@@ -93,6 +94,12 @@
         "Alt"
       ],
       "key": "ArrowRight"
+    },
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "L"
     }
   ],
   "editor:focus-left": [
@@ -101,6 +108,12 @@
         "Alt"
       ],
       "key": "ArrowLeft"
+    },
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "H"
     }
   ],
   "editor:focus-top": [
@@ -146,12 +159,6 @@
     }
   ],
   "app:toggle-left-sidebar": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "B"
-    },
     {
       "modifiers": [
         "Alt"
@@ -254,14 +261,6 @@
         "Shift"
       ],
       "key": "K"
-    }
-  ],
-  "obsidian-editor-shortcuts:expandSelectionToBrackets": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "B"
     }
   ],
   "obsidian-editor-shortcuts:expandSelectionToQuotes": [
@@ -464,14 +463,6 @@
   ],
   "editor:open-link-in-new-window": [],
   "editor:open-link-in-new-split": [],
-  "obsidian-editor-shortcuts:goToNextHeading": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "H"
-    }
-  ],
   "editor:set-heading-1": [
     {
       "modifiers": [
@@ -531,16 +522,15 @@
   "obsidian-editor-shortcuts:goToPrevHeading": [
     {
       "modifiers": [
-        "Alt",
-        "Shift"
+        "Alt"
       ],
-      "key": "H"
+      "key": "K"
     },
     {
       "modifiers": [
         "Alt"
       ],
-      "key": "G"
+      "key": "B"
     }
   ],
   "obsidian-editor-shortcuts:redo": [
@@ -695,7 +685,7 @@
     {
       "modifiers": [
         "Alt",
-        "Shift"
+        "Mod"
       ],
       "key": "L"
     }
@@ -717,5 +707,28 @@
       ],
       "key": "K"
     }
-  ]
+  ],
+  "obsidian-editor-shortcuts:goToNextHeading": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "J"
+    },
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "G"
+    }
+  ],
+  "obsidian-editor-shortcuts:expandSelectionToBrackets": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "B"
+    }
+  ],
+  "graph:open": []
 }
