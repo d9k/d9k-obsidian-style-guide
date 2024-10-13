@@ -102,9 +102,10 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :horse_racing: YouTube Shorts
 - :tv: video
 - :headphones: podcast
-- :newspaper: статья
-- :information_source: блок информации
+- :newspaper: article
+- :information_source: information block
 - :point_up_2: source
+- :collision: news article (as explosion - short, draws attention but have temporary value)
 
 ### IT
 
@@ -114,7 +115,7 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :robot_face: automation
 - :bust_in_silhouette: access
 - :electric_plug: environment, connection, credentials
-- :rotating_light: error code/text
+- :rotating_light: error code/text, crash
 - :warning: warning
 - :toolbox: tools
 - :open_file_folder: path to file locally/on repo
@@ -129,7 +130,6 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :building_construction: build command / tool / boilerplate / starter template
 - :seedling: raw functionality (alpha/beta)
 - :jigsaw: plugin / extension / module / specialized small tool
-- :collision: crash
 - :fallen_leaf: deprecated / abandoned / no updates for long time
 - :herb: \[compatible with\] fresh version
 - 🖧 LAN URL
