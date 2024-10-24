@@ -1,0 +1,1 @@
+<% moment().locale('ru').format("DD MMM YYYY, ddd") %>
