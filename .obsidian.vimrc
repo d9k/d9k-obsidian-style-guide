@@ -2,7 +2,7 @@
 exmap checkmark obcommand editor:cycle-list-checklist
 " doesn't work in multiline visual mode
 nmap m :checkmark
-nmap <Space> :checkmark
+
 
 " doesn't work 
 "nmap n <C-l>
@@ -44,3 +44,15 @@ exmap nextheading obcommand obsidian-editor-shortcuts:goToNextHeading
 
 exmap newtab obcommand workspace:new-tab
 "nmap n :newtab
+
+
+unmap <Space>
+"map <Space><Space> <C-[>:checkmark
+noremap <Space><Space> :checkmark
+"map <Space><Space> <C-[><C-l>
+"noremap <Space><Space> <C-l>
+"noremap <Space><Space> :tabnext ^V| :tabnext
+"noremap <Space><Space> :tabnext ^V| :tabnext
+"| :tabnext
+noremap <Space>d kdd
+noremap <Space>D jddk
