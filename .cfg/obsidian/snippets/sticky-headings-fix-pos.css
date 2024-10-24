@@ -1,0 +1,9 @@
+.obsidian-sticky-heading {
+  pointer-events: none;
+}
+
+.obsidian-sticky-heading_inner {
+    width: calc(100% - 15px);
+    max-width: calc(100% - 15px);
+    margin-inline-start: 0 !important;
+}
