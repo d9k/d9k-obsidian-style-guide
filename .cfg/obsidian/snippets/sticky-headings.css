@@ -1,0 +1,24 @@
+.obsidian-sticky-heading_inner {
+  /* padding-left: 24px; */
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.obsidian-sticky-heading_inner > * + * {
+  margin-top: 8px;
+}
+
+.obsidian-sticky-heading_inner > .HyperMD-header > * {
+  transform: scale(80%) translateX(-40px);
+  transform-origin: top;
+} 
+
+.obsidian-sticky-heading_inner > .HyperMD-header > * {
+/* .obsidian-sticky-heading_inner .obsidian-sticky-heading_text { */
+  opacity: 0.75;
+}
+
+.obsidian-sticky-heading_inner .obsidian-sticky-heading_level { 
+  display: none;
+}
+

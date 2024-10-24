@@ -10,7 +10,6 @@
   "darlal-switcher-plus",
   "obsidian-image-toolkit",
   "search-on-internet",
-  "obsidian-relative-line-numbers",
   "spoiler-block-obsidian",
   "obsidian-trim-whitespace",
   "templater-obsidian",
@@ -20,5 +19,9 @@
   "heycalmdown-navigate-cursor-history",
   "pane-relief",
   "various-complements",
-  "vim-yank-highlight"
+  "vim-yank-highlight",
+  "obsidian-sort-and-permute-lines",
+  "cmdr",
+  "sticky-heading",
+  "obsidian-style-settings"
 ]
