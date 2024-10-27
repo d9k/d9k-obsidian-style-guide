@@ -1102,6 +1102,15 @@
           "multiline": true,
           "sticky": false,
           "disabled": false
+        },
+        {
+          "from": "",
+          "to": "",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
         }
       ],
       "collapsed": false,
@@ -1420,9 +1429,26 @@
       "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
+    },
+    {
+      "name": "edu",
+      "rules": [
+        {
+          "from": "^(#*)([\\s-]*)((\\[.\\]\\s*)*)(.*)",
+          "to": "$1$2$3:mortar_board: $5",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": true,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": false,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "tuto",
+  "filterString": "",
   "commandFilterString": "",
   "commands": [],
   "apiVersion": 6,
