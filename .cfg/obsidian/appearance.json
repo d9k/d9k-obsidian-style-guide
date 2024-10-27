@@ -18,6 +18,7 @@
     "diagrams-mermaid-fix",
     "quiet-outline-plugin-mod",
     "line-numbers-relative",
+    "sticky-headings-fix-pos",
     "sticky-headings"
   ],
   "baseFontSize": 15
