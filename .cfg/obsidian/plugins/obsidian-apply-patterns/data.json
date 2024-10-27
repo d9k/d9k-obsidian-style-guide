@@ -1086,15 +1086,6 @@
       "name": "asked",
       "rules": [
         {
-          "from": "^([\\t #\\-\\[x\\]]*)",
-          "to": "$1:speaking_head_in_silhouette:",
-          "caseInsensitive": false,
-          "global": false,
-          "multiline": false,
-          "sticky": false,
-          "disabled": false
-        },
-        {
           "from": ":speech_balloon:",
           "to": "",
           "caseInsensitive": false,
@@ -1102,9 +1093,18 @@
           "multiline": false,
           "sticky": false,
           "disabled": false
+        },
+        {
+          "from": "^([\\s#\\-]*)((\\[[^\\[\\]]\\]\\s*){0,1})",
+          "to": "$1$2:speaking_head_in_silhouette: ",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -1413,7 +1413,7 @@
       "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "meth",
+  "filterString": "",
   "commandFilterString": "",
   "commands": [],
   "apiVersion": 6,
