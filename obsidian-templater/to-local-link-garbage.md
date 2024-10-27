@@ -1,2 +1,2 @@
 
-- :point_right: [[ho-garbage#^]]
+- :point_right: [[ho-garbage#^|garbage: ]]
