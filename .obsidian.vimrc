@@ -56,3 +56,7 @@ noremap <Space><Space> :checkmark
 "| :tabnext
 noremap <Space>d kdd
 noremap <Space>D jddk
+
+" to replace without clipboard override
+nnoremap c "_c
+nnoremap x "_x
