@@ -1174,7 +1174,7 @@
           "disabled": false
         }
       ],
-      "collapsed": false,
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -1364,7 +1364,7 @@
           "disabled": false
         }
       ],
-      "collapsed": false,
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -1487,7 +1487,7 @@
           "disabled": false
         }
       ],
-      "collapsed": false,
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -1504,12 +1504,47 @@
           "disabled": false
         }
       ],
+      "collapsed": true,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "split markdown link to header",
+      "rules": [
+        {
+          "from": " - YouTube\\]",
+          "to": "]",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "&feature=youtu.be",
+          "to": "",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "\\[(.*)\\]\\((.*)\\)",
+          "to": "## $1\\n\\n- $2",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
       "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "method",
+  "filterString": "",
   "commandFilterString": "",
   "commands": [],
   "apiVersion": 6,
