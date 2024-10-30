@@ -928,11 +928,28 @@
       "cursorRegexEnd": "^"
     },
     {
-      "name": "article link",
+      "name": "article emoji prefix",
       "rules": [
         {
           "from": "^([ \\t]*)-*[ \\t]*([^\\n\\r]*)",
           "to": "$1- :newspaper: $2",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": true,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "tutorial emoji prefix",
+      "rules": [
+        {
+          "from": "^([ \\t]*)-*[ \\t]*([^\\n\\r]*)",
+          "to": "$1- :beginner: $2",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
@@ -1338,7 +1355,7 @@
           "disabled": false
         },
         {
-          "from": "(.*)",
+          "from": "([a-zA-Z].*)",
           "to": "`$1`",
           "caseInsensitive": false,
           "global": false,
@@ -1347,7 +1364,7 @@
           "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -1492,7 +1509,7 @@
       "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "###",
+  "filterString": "method",
   "commandFilterString": "",
   "commands": [],
   "apiVersion": 6,
