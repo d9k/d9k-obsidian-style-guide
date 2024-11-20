@@ -286,6 +286,23 @@
       "cursorRegexEnd": "^"
     },
     {
+      "name": " - `cli command`",
+      "rules": [
+        {
+          "from": "^([ \\t]*)-*[ \\t]*([^\\n\\r]*)",
+          "to": "$1- :zap: `$2`",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": true,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
       "name": "quote (_\")",
       "rules": [
         {
@@ -957,7 +974,7 @@
           "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -1174,7 +1191,7 @@
           "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
