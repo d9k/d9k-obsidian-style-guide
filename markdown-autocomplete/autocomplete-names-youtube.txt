@@ -1,4 +1,5 @@
 AdamCYounis
+Artindi
 Anthony GG
 Berr's Tech
 Brodie Robertson
@@ -7,6 +8,7 @@ Digging The Greats
 Dreams of Code
 Dushnila
 Ellie Voyyd
+Fireship
 Golang Dojo
 GIMPTutsbyER
 Jake@Linux
@@ -20,6 +22,7 @@ Tech Talk
 The Linux Experiment
 Learn Linux TV
 Titus Tech Talk
+White Box Dev
 Миша Ларченко
 Слава Грис
 Товарищ АНКОМ
