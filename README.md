@@ -10,8 +10,6 @@
 
 - [Obsidian config][]
 
-...
-
 ## Installation
 
 ```bash
@@ -110,6 +108,7 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 ### IT
 
 - :sleuth_or_spy: analyze/investigate unusual behavior reasons/in-code search
+- :cactus: branch
 - :astronaut: research/experiment
 - :runner: run tutorial
 - :robot_face: automation
@@ -136,13 +135,14 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :bow_and_arrow: pull request
 - :wood: crutch / temporary solution
 - :test_tube: test
-* :alembic: test: big
+* :alembic: test: big / TDD
 * :woman-shrugging: test not reproduced
 - :arrows_clockwise: small refactor
 - :carpentry_saw: big refactor
 - :lower_left_paintbrush: дизайн / CSS / styling
 - :arrow_right: route
 - :point_right::blue_book: to documentation / README
+- :classical_building: internet archive / non-original / mirror link
 
 ### Writing articles, structuring notes
 
@@ -282,7 +282,6 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :globe_with_meridians:🧩
 - :star:
 - :dromedary_camel: GitHub / Git / Gitlab / Source hosting
-- 🌵 branch?
 - 😵‍💫 😳 🥵 🫨 🥸
 - 🏚️ 🍄 :no_good: :cl: 🈲 :monkey: 🕷️ :spider_web: 🦨 🎱
 - :rabbit2: ? target DOM element / program object
@@ -296,6 +295,8 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :arrow_up::arrow_down: #WebDev
 - :adhesive_bandage: validate fn
 - :anchor: path in UI
+- :honey_pot: :honeybee: 🗃️ 🛢️🏺⚱️🧺 🪵 🧊 materials, assets, resources
+- :robot_face: 👾 :magic_wand: 🧠 🫧 🧿 :black_large_square: 🎬 🥷🏽 🪬 🐸 🗿 👽 🩻 :horse: :horse_racing: :racehorse: 🦾 🌀 🔩 🐉:carousel_horse: :mountain_cableway: 🚂 🚋 :car: :racing_car: :articulated_lorry: 🦏 🦔:metro: 🚜 :cook: :ant: :unicorn_face: AI
 
 ## Foldable blocks
 
