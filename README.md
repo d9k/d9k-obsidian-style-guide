@@ -108,7 +108,7 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 ### IT
 
 - :sleuth_or_spy: analyze/investigate unusual behavior reasons/in-code search
-- :cactus: branch
+- :cactus: branch / fork
 - :astronaut: research/experiment
 - :runner: run tutorial
 - :robot_face: automation
