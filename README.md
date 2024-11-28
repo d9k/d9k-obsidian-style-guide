@@ -359,3 +359,8 @@ Add `!` before local link.
 - 2023.11
 	- create time only
 
+## Manual tests
+
+- [HTML test](./TEST-HTML.md)
+- [markdown test](./TEST-markdown.md)
+- [apply patterns tests](./TEST-apply-patterns.md)

@@ -193,7 +193,7 @@
           "disabled": false
         }
       ],
-      "collapsed": false,
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -974,7 +974,7 @@
           "disabled": false
         }
       ],
-      "collapsed": false,
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -1104,7 +1104,7 @@
           "disabled": false
         }
       ],
-      "collapsed": false,
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -1157,7 +1157,7 @@
           "disabled": false
         }
       ],
-      "collapsed": false,
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -1174,8 +1174,8 @@
           "disabled": false
         },
         {
-          "from": "^([\\s#\\-]*)((\\[[^\\[\\]]\\]\\s*){0,1})",
-          "to": "$1$2:speaking_head_in_silhouette: ",
+          "from": "^(\\s*[#\\-]*)(\\s*\\[.\\])?(\\s*)",
+          "to": "$1$2 :speaking_head_in_silhouette: ",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
@@ -1183,7 +1183,7 @@
           "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -1209,7 +1209,7 @@
           "disabled": false
         }
       ],
-      "collapsed": false,
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -1574,12 +1574,12 @@
           "disabled": false
         }
       ],
-      "collapsed": false,
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "",
+  "filterString": "asked",
   "commandFilterString": "",
   "commands": [],
   "apiVersion": 6,
