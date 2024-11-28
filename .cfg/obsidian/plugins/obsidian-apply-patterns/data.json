@@ -103,7 +103,7 @@
           "disabled": false
         },
         {
-          "from": "(\\[[^\\[]* \\| SO\\])",
+          "from": "(\\[.* \\| SO\\])",
           "to": ":speech_balloon: $1",
           "caseInsensitive": false,
           "global": false,
@@ -193,7 +193,7 @@
           "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -1579,7 +1579,7 @@
       "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "###",
+  "filterString": "",
   "commandFilterString": "",
   "commands": [],
   "apiVersion": 6,
