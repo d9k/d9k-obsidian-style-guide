@@ -21,6 +21,10 @@ nmap at :linkloadtitle
 
 nnoremap <C-e> <C-u>
 vnoremap <C-e> <C-u>
+
+
+nnoremap z<CR> zz
+nnoremap zz z<CR>
 " doesn't work
 "nmap <C-S-d> <C-u>
 
