@@ -35,3 +35,8 @@ body {
     color: #6dbf77;
     font-size: var(--font-smallest);
 }
+
+.cm-editor:not(.cm-focused) {
+  /* background-color: #061817; */
+  /* background-color: #031313; */
+}

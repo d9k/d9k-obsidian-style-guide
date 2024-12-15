@@ -1,0 +1,28 @@
+.view-header-title,
+.view-header-title-parent {
+  color: #888;
+}
+
+/* .is-focused  */
+.workspace-leaf.mod-active .view-header-title {
+  color: #ffffff;
+  /* border-bottom: 1px solid #FFF; */
+}
+
+.workspace-leaf:not(.mod-active) .view-header {
+  /* background-color: var(--titlebar-background-focused) !important; */
+  /* background-color: #001005 !important; */
+  /* background-color: #000402 !important; */
+}
+
+/* .is-focused  */
+.workspace-leaf.mod-active .view-header {
+  /* background-color: #061817; */
+  /* background-color: #092220 !important; */
+  background-color: #1a192d !important;
+}
+
+/* .workspace-leaf.mod-active .view-header-title-container.mod-fade:not(.mod-at-end):after { */
+.view-header-title-container.mod-fade:not(.mod-at-end):after {
+  background: transparent;
+}

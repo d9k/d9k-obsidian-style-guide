@@ -19,7 +19,9 @@
     "quiet-outline-plugin-mod",
     "line-numbers-relative",
     "sticky-headings-fix-pos",
-    "sticky-headings"
+    "sticky-headings",
+    "view-header",
+    "line-numbers"
   ],
   "baseFontSize": 15
 }

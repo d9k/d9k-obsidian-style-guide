@@ -1,0 +1,23 @@
+/* For relative line numbers community plugin */
+
+.cm-gutterElement.cm-active {
+  color: #b0b0ff;
+}
+
+.cm-gutters {
+  min-width: 70px;
+}
+
+/* .cm-editor:not(.cm-focused) .cm-gutterElement:not(.cm-active) { */
+.workspace-leaf:not(.mod-active) .cm-gutterElement:not(.cm-active) {
+  opacity: 0.3;
+}
+
+/* .cm-editor:not(.cm-focused) .cm-gutterElement.cm-active { */
+.workspace-leaf:not(.mod-active) .cm-gutterElement.cm-active {
+  opacity: 0.8;
+}
+
+/* .cm-editor.cm-focused .cm-gutterElement:not(.cm-active) { */
+/*   opacity: 0.9; */
+/* } */
