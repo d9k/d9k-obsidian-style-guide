@@ -64,3 +64,5 @@ noremap <Space>D jddk
 " to replace without clipboard override
 nnoremap c "_c
 nnoremap x "_x
+
+nnoremap <Del> "_<Del>
