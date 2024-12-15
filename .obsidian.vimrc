@@ -66,3 +66,4 @@ nnoremap c "_c
 nnoremap x "_x
 
 nnoremap <Del> "_<Del>
+nnoremap <BS> "_Xi
