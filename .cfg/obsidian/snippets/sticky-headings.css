@@ -22,6 +22,8 @@
   display: none;
 }
 
-.workspace-leaf:not(.mod-active) .obsidian-sticky-heading_inner {
+/* .workspace-leaf:not(.mod-active) .obsidian-sticky-heading_inner { */
+.obsidian-sticky-heading_inner {
+  background-color: #020c0c;
   /* background-color: #000402; */
 }
