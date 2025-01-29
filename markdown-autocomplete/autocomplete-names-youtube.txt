@@ -3,6 +3,7 @@ Artindi
 Anthony GG
 Berr's Tech
 Brodie Robertson
+CppCon
 DeadP47
 Digging The Greats
 Dreams of Code
@@ -24,6 +25,7 @@ Learn Linux TV
 Retro Game Corps
 Titus Tech Talk
 White Box Dev
+xk vods
 Миша Ларченко
 Слава Грис
 Товарищ АНКОМ

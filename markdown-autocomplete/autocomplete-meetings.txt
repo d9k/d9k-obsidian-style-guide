@@ -84,6 +84,7 @@
 я прослушал
 AG Grid
 Discord
+Kubernetes
 local storage
 performance review
 pipeline
