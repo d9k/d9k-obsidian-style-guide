@@ -454,7 +454,7 @@
           "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -1591,6 +1591,30 @@
           "disabled": false
         }
       ],
+      "collapsed": false,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "escape \"[\", \"]\"",
+      "rules": [
+        {
+          "from": "([^\\\\\\w]|^)\\[([^\\]]*)([^\\\\])\\]([^\\(]*|$)",
+          "to": "$1\\[$2$3\\]$4",
+          "caseInsensitive": false,
+          "global": true,
+          "multiline": true,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": false,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "",
+      "rules": [],
       "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
