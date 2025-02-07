@@ -202,7 +202,7 @@
           "disabled": false
         }
       ],
-      "collapsed": false,
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -290,7 +290,7 @@
           "disabled": false
         }
       ],
-      "collapsed": false,
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -1192,7 +1192,7 @@
           "disabled": false
         }
       ],
-      "collapsed": false,
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -1574,14 +1574,42 @@
           "disabled": false
         }
       ],
+      "collapsed": true,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "bold + italic (***)",
+      "rules": [
+        {
+          "from": "(.*)",
+          "to": "***$1***",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
       "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "qu",
+  "filterString": "",
   "commandFilterString": "",
-  "commands": [],
+  "commands": [
+    {
+      "name": "",
+      "icon": "search",
+      "patternFilter": "",
+      "selection": true,
+      "lines": true,
+      "document": true,
+      "clipboard": false,
+      "clipboardLines": false
+    }
+  ],
   "apiVersion": 6,
   "defaultCursorRegexEnd": "^",
   "defaultCursorRegexStart": "$"
