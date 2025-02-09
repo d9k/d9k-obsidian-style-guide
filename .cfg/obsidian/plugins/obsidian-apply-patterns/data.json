@@ -755,7 +755,7 @@
       "cursorRegexEnd": "^"
     },
     {
-      "name": "[/] checkbox: partially done",
+      "name": " partially done: [/] checkbox / [x] header:",
       "rules": [
         {
           "from": "- \\[.\\]",
@@ -765,9 +765,36 @@
           "multiline": false,
           "sticky": false,
           "disabled": false
+        },
+        {
+          "from": "(#+.*):black_square_button:[ ]*",
+          "to": "$1",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "(#+.*):white_check_mark:[ ]*",
+          "to": "$1",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "^(#+)",
+          "to": "$1 :negative_squared_cross_mark:",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -864,32 +891,6 @@
         {
           "from": "(#+)",
           "to": "$1 :white_check_mark:",
-          "caseInsensitive": false,
-          "global": false,
-          "multiline": false,
-          "sticky": false,
-          "disabled": false
-        }
-      ],
-      "collapsed": true,
-      "cursorRegexStart": "$",
-      "cursorRegexEnd": "^"
-    },
-    {
-      "name": "# [x] header checkbox task: partially done",
-      "rules": [
-        {
-          "from": "(#+.*):black_square_button:[ ]*",
-          "to": "$1",
-          "caseInsensitive": false,
-          "global": false,
-          "multiline": false,
-          "sticky": false,
-          "disabled": false
-        },
-        {
-          "from": "(#+)",
-          "to": "$1 :negative_squared_cross_mark:",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
@@ -1620,7 +1621,7 @@
       "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "",
+  "filterString": "part",
   "commandFilterString": "",
   "commands": [
     {
