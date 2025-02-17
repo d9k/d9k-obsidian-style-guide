@@ -1614,14 +1614,24 @@
       "cursorRegexEnd": "^"
     },
     {
-      "name": "",
-      "rules": [],
+      "name": "in escaped square brackets \\[ \\]",
+      "rules": [
+        {
+          "from": "(.*)",
+          "to": "\\[$1\\]",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
       "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "part",
+  "filterString": "",
   "commandFilterString": "",
   "commands": [
     {
