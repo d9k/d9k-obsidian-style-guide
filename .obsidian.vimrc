@@ -8,13 +8,13 @@ nmap m :checkmark
 "nmap n <C-l>
 
 exmap tabnext obcommand workspace:next-tab
-nmap gt :tabnext
+nmap gt :tabnext<CR>
 
 exmap tabprev obcommand workspace:previous-tab
-nmap gT :tabprev
+nmap gT :tabprev<CR>
 
 " obsidian-auto-link-title:enhance-url-with-title
-exmap linkloadtitle obcommand obsidian-auto-link-title:enhance-url-with-title
+exmap linkloadtitle /obcommand obsidian-auto-link-title:enhance-url-with-title
 
 "nmap T :linkloadtitle | j
 nmap at :linkloadtitle 
@@ -52,14 +52,22 @@ exmap newtab obcommand workspace:new-tab
 
 unmap <Space>
 "map <Space><Space> <C-[>:checkmark
-noremap <Space><Space> :checkmark
+noremap <Space><Space> :checkmark<CR>
 "map <Space><Space> <C-[><C-l>
 "noremap <Space><Space> <C-l>
 "noremap <Space><Space> :tabnext ^V| :tabnext
 "noremap <Space><Space> :tabnext ^V| :tabnext
 "| :tabnext
 noremap <Space>d kdd
-noremap <Space>D jddk
+noremap <Space>D jdd
+"nnoremap <Space><gt> <Tab>
+"nnoremap <Space>> <Tab>
+"nnoremap <Space>> itest
+"
+"Doesn't work
+nnoremap <Space>> <tab>
+"nnoremap <Space>> :obsidian-editor-shortcuts:indent-using-tabs
+"<C-]> 
 
 " to replace without clipboard override
 nnoremap c "_c

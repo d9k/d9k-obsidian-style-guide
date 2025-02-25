@@ -1,6 +1,6 @@
 {
-  "markdown_overcharge": true,
-  "extensions": "md> txt> wtf",
+  "markdown_overcharge": false,
+  "extensions": "txt>",
   "is_case_insensitive": false,
   "is_onload": false,
   "is_onload_unsafe": false,
@@ -9,21 +9,23 @@
   "ignore_extensions": "",
   "ignore_masks": "",
   "is_grouped": true,
-  "grouped_extensions": "markdown: md> txt> wtf;",
+  "grouped_extensions": "",
   "mobile_settings": {
-    "extensions": ""
+    "extensions": "txt"
   },
-  "barefiling": false,
+  "barefiling": true,
   "stable": true,
-  "errors": {},
-  "debug_mode": true,
+  "errors": {
+    "": "Error from UNITADE plugin: Error: Attempting to register an existing view type \"\""
+  },
+  "debug_mode": false,
   "silence_errors": false,
   "manifest_version": "3.1.0",
   "compatibility_module": true,
   "safe_mode": true,
   "code_editor_settings": {
     "enabled": true,
-    "use_default_extensions": false,
+    "use_default_extensions": true,
     "extensions": "",
     "folding": true,
     "line_numbers": true,

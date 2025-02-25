@@ -5,5 +5,6 @@
   "spellcheckLanguages": null,
   "newFileLocation": "current",
   "promptDelete": true,
-  "vimMode": true
+  "vimMode": true,
+  "useTab": true
 }
