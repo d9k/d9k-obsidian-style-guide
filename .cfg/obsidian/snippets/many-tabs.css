@@ -26,14 +26,16 @@
 */
 
 .mod-root .workspace-tabs .workspace-tab-header {
-  min-width: 100px;
+  min-width: 120px;
   flex-shrink: 0;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 .mod-root .workspace-tab-header-container {
   flex-wrap: wrap;
   height: unset;
-  min-height: 60px;
+  min-height: 64px;
   --tab-font-size: 15px;
 }
 
