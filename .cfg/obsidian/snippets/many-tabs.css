@@ -5,6 +5,10 @@
   --tab-font-size: 15px;
 }
 
+.mod-root .workspace-tab-header-container-inner {
+  flex-wrap: wrap;
+}
+
 .mod-root .workspace-tabs .workspace-tab-header {
   min-width: 120px;
   flex-shrink: 0;
@@ -39,3 +43,6 @@
   top: 30px;
 }
 
+.mod-root .workspace-tab-header .workspace-tab-header-inner-close-button {
+  height: 100%;
+}
