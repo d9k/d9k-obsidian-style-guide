@@ -160,8 +160,8 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 
 - :speech_balloon: discussions on forums/issues
 - :speaking_head_in_silhouette: asked question
-- :sunglasses: contacts / people
-- :male-office-worker: author
+- [-] :sunglasses: contacts / people
+- :male-office-worker: author / contact / social network account
 - :construction: (author not responding or doesn't plan to fix)
 - :bell: waiting for answer
 - :arrows_counterclockwise: last checked `${last_check} / ${since}`
@@ -211,8 +211,8 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 ### Github repo
 
 - :star: stars count
-- :lady_beetle: bugs count (открыто/закрыто=процнт_открытых_к_всего)
-- :bricks: commits count (месяц/год/всего)
+- :lady_beetle: bugs count ( opened / ( closed + opened ) = percentage_of_opened)
+- :ladder: commits count (month / year / total)
 
 ### Other
 
