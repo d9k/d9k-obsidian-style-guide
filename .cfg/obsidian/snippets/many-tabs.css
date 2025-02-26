@@ -1,5 +1,4 @@
 .mod-root .workspace-tab-header-container {
-  flex-wrap: wrap;
   height: unset;
   min-height: 64px;
   --tab-font-size: 15px;
