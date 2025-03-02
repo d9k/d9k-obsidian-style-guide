@@ -2,17 +2,29 @@
   height: unset;
   min-height: 64px;
   --tab-font-size: 15px;
+  padding-right: 52px;
 }
 
 .mod-root .workspace-tab-header-container-inner {
   flex-wrap: wrap;
+  /* margin-right: 36px; */
+  /* padding-right: 52px; */
 }
 
 .mod-root .workspace-tabs .workspace-tab-header {
-  min-width: 120px;
+  width: max-content;
+  flex-basis: max-content;
+  container-type: initial;
+  /* min-width: 120px; */
+  max-width: 100%;
   flex-shrink: 0;
   padding-top: 4px;
   padding-bottom: 4px;
+}
+
+.mod-root .workspace-tabs .workspace-tab-header-inner {
+  /* for close button if position:absolute */
+  padding-right: 16px;
 }
 
 .is-hidden-frameless:not(.is-fullscreen):not(.mod-macos) .workspace-tabs.mod-top-right-space .workspace-tab-header-container:after {
@@ -44,4 +56,6 @@
 
 .mod-root .workspace-tab-header .workspace-tab-header-inner-close-button {
   height: 100%;
+  position: absolute !important;
+  /* margin-right: 8px; */
 }
