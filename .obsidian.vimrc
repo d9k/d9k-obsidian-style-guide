@@ -58,8 +58,8 @@ noremap <Space><Space> :checkmark<CR>
 "noremap <Space><Space> :tabnext ^V| :tabnext
 "noremap <Space><Space> :tabnext ^V| :tabnext
 "| :tabnext
-noremap <Space>d kdd
-noremap <Space>D jdd
+nnoremap <Space>d k"_dd
+nnoremap <Space>D j"_dd
 "nnoremap <Space><gt> <Tab>
 "nnoremap <Space>> <Tab>
 "nnoremap <Space>> itest
