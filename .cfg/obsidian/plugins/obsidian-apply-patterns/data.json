@@ -1155,7 +1155,7 @@
       "cursorRegexEnd": "^"
     },
     {
-      "name": "asked",
+      "name": "asked / answered",
       "rules": [
         {
           "from": ":speech_balloon:",
@@ -1580,7 +1580,7 @@
       "cursorRegexEnd": "^"
     },
     {
-      "name": "bold + italic (***)",
+      "name": "bold + italic / emphasis (***) ",
       "rules": [
         {
           "from": "(.*)",
