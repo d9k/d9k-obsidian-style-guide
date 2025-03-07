@@ -1,0 +1,1 @@
+- :point_right: [[job-garbage#^|garbage: тех. собес.]]
