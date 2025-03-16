@@ -1531,6 +1531,15 @@
       "name": "split markdown link to header",
       "rules": [
         {
+          "from": "\\[\\([0-9]+\\) ",
+          "to": "[",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
           "from": " - YouTube\\]",
           "to": "]",
           "caseInsensitive": false,
@@ -1558,7 +1567,7 @@
           "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
