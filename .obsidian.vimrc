@@ -75,3 +75,6 @@ nnoremap x "_x
 
 nnoremap <Del> "_<Del>
 nnoremap <BS> "_Xi
+
+" uppercase
+nnoremap UU gUl
