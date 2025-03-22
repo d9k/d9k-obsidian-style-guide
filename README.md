@@ -298,7 +298,8 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :adhesive_bandage: validate fn
 - :anchor: path in UI
 - :honey_pot: :honeybee: 🗃️ 🛢️🏺⚱️🧺 🪵 🧊 materials, assets, resources
-- :robot_face: 👾 :magic_wand: 🧠 🫧 🧿 :black_large_square: 🎬 🥷🏽 🪬 🐸 🗿 👽 🩻 :horse: :horse_racing: :racehorse: 🦾 🌀 🔩 🐉:carousel_horse: :mountain_cableway: 🚂 🚋 :car: :racing_car: :articulated_lorry: 🦏 🦔:metro: 🚜 :cook: :ant: :unicorn_face: AI
+- :robot_face: 👾 :magic_wand: 🧠 🫧 🧿 :black_large_square: 🎬 🥷🏽 🪬 🐸 🗿 👽 🩻 :horse: :horse_racing: :racehorse: 🦾 🌀 🔩 🐉:carousel_horse: :mountain_cableway: 🚂 🚋 :car: :racing_car: :articulated_lorry: 🦏 🦔:metro: 🚜 :cook: :ant: :unicorn_face: AI generated
+- 🚂 :articulated_lorry: 🚚 🚀 🚖 🏃 🏃🏻‍♂️‍➡️ 🚜 - automation (alternative)
 - :snail: :turtle: ❆ ༄ :snowman: 🥶 🏖️ 🚴 slow?
 - 🏍 :rocket: :zap: :horse_racing: :racehorse::runner::hot_pepper: :hotsprings: 🏍️ 🫨 :bullettrain_side: :bullettrain_front: 🏎 ⏭ ᯓ🏃🏻‍♀️‍➡️❤️‍🔥🌡️🦅 🐇 🥵 🦾 fast? / speed?
 

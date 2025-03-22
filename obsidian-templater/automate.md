@@ -1,1 +1,1 @@
-:robot_face:
+:tractor:
