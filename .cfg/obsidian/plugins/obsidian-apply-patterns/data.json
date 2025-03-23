@@ -1606,10 +1606,10 @@
       "cursorRegexEnd": "^"
     },
     {
-      "name": "escape \"[\", \"]\"",
+      "name": "escape square brackets: \"\\[\", \"\\]\"",
       "rules": [
         {
-          "from": "([^\\\\\\w]|^)\\[([^\\]]*)([^\\\\])\\]([^\\(]*|$)",
+          "from": "([^\\\\]|^)\\[([^\\]]*)([^\\\\])\\]([^\\(]{0,1}|$)",
           "to": "$1\\[$2$3\\]$4",
           "caseInsensitive": false,
           "global": true,
@@ -1629,7 +1629,7 @@
           "from": "(.*)",
           "to": "\\[$1\\]",
           "caseInsensitive": false,
-          "global": false,
+          "global": true,
           "multiline": false,
           "sticky": false,
           "disabled": false
@@ -1640,7 +1640,7 @@
       "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "",
+  "filterString": "esca",
   "commandFilterString": "",
   "commands": [
     {
