@@ -1,7 +1,9 @@
 AdamCYounis
 Artindi
 Anthony GG
+Anton Putra
 Berr's Tech
+Better Stack
 Brodie Robertson
 CppCon
 DeadP47
@@ -10,18 +12,21 @@ Dreams of Code
 Dushnila
 Ellie Voyyd
 Fireship
+Gamefromscratch
 Golang Dojo
 GIMPTutsbyER
 Jake@Linux
 Josean Martinez
 Josh Medeski
+Learn Linux TV
+Slidebean
 OldManTV
 RobertElderSoftware
 Spencer's Adventures
 TechDweeb
 Tech Talk
 The Linux Experiment
-Learn Linux TV
+theSeniorDev
 Retro Game Corps
 ThePrimeagen
 ThePrimeTimeagen
