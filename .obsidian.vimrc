@@ -59,7 +59,7 @@ noremap <Space><Space> :checkmark<CR>
 "noremap <Space><Space> :tabnext ^V| :tabnext
 "| :tabnext
 nnoremap <Space>d k"_dd
-nnoremap <Space>D j"_dd
+nnoremap <Space>D j"_ddk
 "nnoremap <Space><gt> <Tab>
 "nnoremap <Space>> <Tab>
 "nnoremap <Space>> itest
@@ -78,3 +78,31 @@ nnoremap <BS> "_Xi
 
 " uppercase
 nnoremap UU gUl
+
+" ## Surround
+
+nunmap s
+vunmap s
+
+exmap surround_double_quotes surround " "
+exmap surround_single_quotes surround ' '
+exmap surround_backticks surround ` `
+exmap surround_brackets surround ( )
+exmap surround_square_brackets surround [ ]
+exmap surround_curly_brackets surround { }
+
+map s" :surround_double_quotes<CR>
+map s' :surround_single_quotes<CR>
+map s` :surround_backticks<CR>
+map sb :surround_brackets<CR>
+map s( :surround_brackets<CR>
+map s) :surround_brackets<CR>
+map s[ :surround_square_brackets<CR>
+map s] :surround_square_brackets<CR>
+map s{ :surround_curly_brackets<CR>
+map s} :surround_curly_brackets<CR>
+
+" DOESN'T WORK!
+"noremap sE` vE:surround_backticks<CR>
+"noremap sE` vE
+"map sE` vEes`
