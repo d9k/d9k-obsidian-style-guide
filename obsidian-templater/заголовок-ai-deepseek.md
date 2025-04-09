@@ -1,0 +1,1 @@
+## :robot_face: - разговор с DeepSeek <% tp.date.now('YYYY.MM.DD') %>
