@@ -122,7 +122,7 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :beginner: documentation
 - 📶 stats
 - :cold_face: slow
-- :mechanical_arm: fast / speed
+- :rocket: fast / speed
 - ⏩ MVP
 - 🚪 project homepage ^d9k-homepage-2023-11-08
 - :stethoscope: DevTools, debug
@@ -301,7 +301,7 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :robot_face: 👾 :magic_wand: 🧠 🫧 🧿 :black_large_square: 🎬 🥷🏽 🪬 🐸 🗿 👽 🩻 :horse: :horse_racing: :racehorse: 🦾 🌀 🔩 🐉:carousel_horse: :mountain_cableway: 🚂 🚋 :car: :racing_car: :articulated_lorry: 🦏 🦔:metro: 🚜 :cook: :ant: :unicorn_face: AI generated
 - 🚂 :articulated_lorry: 🚚 🚀 🚖 🏃 🏃🏻‍♂️‍➡️ 🚜 - automation (alternative)
 - :snail: :turtle: ❆ ༄ :snowman: 🥶 🏖️ 🚴 slow?
-- 🏍 :rocket: :zap: :horse_racing: :racehorse::runner::hot_pepper: :hotsprings: 🏍️ 🫨 :bullettrain_side: :bullettrain_front: 🏎 ⏭ ᯓ🏃🏻‍♀️‍➡️❤️‍🔥🌡️🦅 🐇 🥵 🦾 fast? / speed?
+- 🏍 :rocket: :zap: :horse_racing: :racehorse::runner::hot_pepper: :hotsprings: :racing_car: 🏍️ 🫨 :bullettrain_side: :bullettrain_front: 🏎 ⏭ ᯓ🏃🏻‍♀️‍➡️❤️‍🔥🌡️🦅 🐇 🥵 🦾 👢 🥾 👣 fast? / speed?
 
 
 

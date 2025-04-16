@@ -1,1 +1,1 @@
-:mechanical_arm:
+:rocket:
