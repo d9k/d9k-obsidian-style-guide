@@ -803,7 +803,7 @@
           "disabled": false
         }
       ],
-      "collapsed": false,
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -967,8 +967,8 @@
       "name": "article emoji prefix",
       "rules": [
         {
-          "from": "^([ \\t]*)-*[ \\t]*([^\\n\\r]*)",
-          "to": "$1- :newspaper: $2",
+          "from": "^(\\s*[#\\-]*)(\\s*\\[.\\])?(\\s*)",
+          "to": "$1$2 :newspaper: ",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
@@ -976,7 +976,7 @@
           "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -1202,7 +1202,7 @@
           "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -1692,7 +1692,7 @@
       "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "",
+  "filterString": "arti",
   "commandFilterString": "",
   "commands": [
     {
