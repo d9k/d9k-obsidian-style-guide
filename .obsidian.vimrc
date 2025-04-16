@@ -78,6 +78,7 @@ nnoremap <BS> "_Xi
 
 " uppercase
 nnoremap UU gUl
+nnoremap Uu gul
 
 " ## Surround
 
