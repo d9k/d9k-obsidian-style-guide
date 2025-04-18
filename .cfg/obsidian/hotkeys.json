@@ -338,7 +338,8 @@
   "obsidian-editor-shortcuts:toggleCase": [
     {
       "modifiers": [
-        "Alt"
+        "Alt",
+        "Shift"
       ],
       "key": "I"
     }
@@ -664,12 +665,6 @@
         "Mod"
       ],
       "key": "T"
-    },
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "N"
     },
     {
       "modifiers": [],

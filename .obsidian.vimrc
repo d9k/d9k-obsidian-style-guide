@@ -107,3 +107,9 @@ map s} :surround_curly_brackets<CR>
 "noremap sE` vE:surround_backticks<CR>
 "noremap sE` vE
 "map sE` vEes`
+
+" Go to next capital letter
+"map <A-n> /[A-ZА-Я]<CR>
+map <A-i> /[A-ZА-Я]<CR>
+"<Esc> doesn't work
+"<C-[> breaks things
