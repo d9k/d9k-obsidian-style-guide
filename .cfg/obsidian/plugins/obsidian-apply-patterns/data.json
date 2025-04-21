@@ -1638,7 +1638,7 @@
           "from": "(.*)",
           "to": "\\[$1\\]",
           "caseInsensitive": false,
-          "global": true,
+          "global": false,
           "multiline": false,
           "sticky": false,
           "disabled": false
@@ -1692,7 +1692,7 @@
       "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "arti",
+  "filterString": "esca",
   "commandFilterString": "",
   "commands": [
     {
