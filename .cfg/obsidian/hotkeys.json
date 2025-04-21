@@ -531,12 +531,6 @@
       "modifiers": [
         "Alt"
       ],
-      "key": "K"
-    },
-    {
-      "modifiers": [
-        "Alt"
-      ],
       "key": "B"
     }
   ],
@@ -710,12 +704,6 @@
     }
   ],
   "obsidian-editor-shortcuts:goToNextHeading": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "J"
-    },
     {
       "modifiers": [
         "Alt"

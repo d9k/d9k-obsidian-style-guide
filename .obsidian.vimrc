@@ -113,3 +113,7 @@ map s} :surround_curly_brackets<CR>
 map <A-i> /[A-ZА-Я]<CR>
 "<Esc> doesn't work
 "<C-[> breaks things
+"
+
+map <A-k> /^#<CR>
+map <A-j> ?^#<CR>
