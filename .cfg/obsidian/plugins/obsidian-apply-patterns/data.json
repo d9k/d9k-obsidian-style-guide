@@ -1690,9 +1690,26 @@
       "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
+    },
+    {
+      "name": "remove quotes",
+      "rules": [
+        {
+          "from": "[\"'`«»]*",
+          "to": "",
+          "caseInsensitive": false,
+          "global": true,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": false,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "esca",
+  "filterString": "",
   "commandFilterString": "",
   "commands": [
     {
