@@ -117,3 +117,11 @@ map <A-i> /[A-ZА-Я]<CR>
 
 map <A-k> /^#<CR>
 map <A-j> ?^#<CR>
+" ru: doesn't work
+"map <A-л> /^#<CR>
+"map <A-о> ?^#<CR>
+
+map <A-Del> lxh
+
+"Doesn't work 
+"map <A-X> lxh
