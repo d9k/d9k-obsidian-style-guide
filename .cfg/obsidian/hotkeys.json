@@ -563,15 +563,87 @@
   ],
   "pane-relief:go-next": [],
   "pane-relief:go-prev": [],
-  "pane-relief:go-1st": [],
-  "pane-relief:go-2nd": [],
-  "pane-relief:go-3rd": [],
-  "pane-relief:go-4th": [],
-  "pane-relief:go-5th": [],
-  "pane-relief:go-7th": [],
-  "pane-relief:go-6th": [],
-  "pane-relief:go-8th": [],
-  "pane-relief:go-last": [],
+  "pane-relief:go-1st": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "1"
+    }
+  ],
+  "pane-relief:go-2nd": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "2"
+    }
+  ],
+  "pane-relief:go-3rd": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "3"
+    }
+  ],
+  "pane-relief:go-4th": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "4"
+    }
+  ],
+  "pane-relief:go-5th": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "5"
+    }
+  ],
+  "pane-relief:go-7th": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "7"
+    }
+  ],
+  "pane-relief:go-6th": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "6"
+    }
+  ],
+  "pane-relief:go-8th": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "8"
+    }
+  ],
+  "pane-relief:go-last": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "9"
+    }
+  ],
   "pane-relief:put-last": [
     {
       "modifiers": [
