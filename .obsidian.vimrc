@@ -115,8 +115,8 @@ map <A-i> /[A-ZА-Я]<CR>
 "<C-[> breaks things
 "
 
-map <A-k> /^#<CR>
-map <A-j> ?^#<CR>
+map <A-j> /^#<CR>
+map <A-k> ?^#<CR>
 " ru: doesn't work
 "map <A-л> /^#<CR>
 "map <A-о> ?^#<CR>
@@ -125,3 +125,12 @@ map <A-Del> lxh
 
 "Doesn't work 
 "map <A-X> lxh
+
+map <A-m> }}{j
+"map <A-n> {{}k
+"map <A-n> {{}k
+map <A-n> {{j
+"map <A-J> jjj
+
+"map <A-m> /^.<CR>
+"map <A-n> ?^.<CR>
