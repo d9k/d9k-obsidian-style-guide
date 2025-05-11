@@ -209,6 +209,15 @@
           "multiline": false,
           "sticky": false,
           "disabled": false
+        },
+        {
+          "from": "[  ]{2,}",
+          "to": " ",
+          "caseInsensitive": false,
+          "global": true,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
         }
       ],
       "collapsed": false,
