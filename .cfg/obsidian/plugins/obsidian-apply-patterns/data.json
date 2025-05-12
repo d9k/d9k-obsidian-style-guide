@@ -202,7 +202,7 @@
           "disabled": false
         },
         {
-          "from": "\\[([^\\[]+) / Хабр\\]",
+          "from": "\\[([^\\]]{3,}.*) / Хабр\\]",
           "to": ":newspaper: [$1 | Хабр]",
           "caseInsensitive": false,
           "global": false,
