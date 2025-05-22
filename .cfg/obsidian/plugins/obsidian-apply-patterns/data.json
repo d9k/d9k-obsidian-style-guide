@@ -247,7 +247,7 @@
           "disabled": false
         }
       ],
-      "collapsed": false,
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -1639,7 +1639,7 @@
           "disabled": false
         }
       ],
-      "collapsed": false,
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -1770,9 +1770,79 @@
       "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
+    },
+    {
+      "name": "__temp_theseniordev_quiz_text_fix",
+      "rules": [
+        {
+          "from": "^Question [a-z].[a-z].",
+          "to": "",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "This question is required.\\*",
+          "to": "",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "Key([A-Z])",
+          "to": " $1. ",
+          "caseInsensitive": false,
+          "global": true,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "Level: Senior 🧙‍♀️",
+          "to": "",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "OKpress Enter ↵",
+          "to": "",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": true,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "telegram / tg",
+      "rules": [
+        {
+          "from": "https://t.me/([^ ]*)",
+          "to": "[@$1](https://t.me/$1)",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": false,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "split",
+  "filterString": "",
   "commandFilterString": "",
   "commands": [
     {
