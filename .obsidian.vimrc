@@ -109,11 +109,13 @@ map s} :surround_curly_brackets<CR>
 "map sE` vEes`
 
 " Go to next capital letter
-"map <A-n> /[A-ZА-Я]<CR>
 map <A-i> /[A-ZА-Я]<CR>
+"map <A-n> /[A-ZА-Я]<CR>
 "<Esc> doesn't work
 "<C-[> breaks things
-"
+
+" Go to next alphanum word
+map <A-u> /[a-zA-Zа-яА-Я0-9]+<CR>
 
 map <A-j> /^#<CR>
 map <A-k> ?^#<CR>
@@ -134,3 +136,9 @@ map <A-n> {{j
 
 "map <A-m> /^.<CR>
 "map <A-n> ?^.<CR>
+
+" Delete work with space. Doesn't work!
+"nnoremap d<Space> viwohx
+
+" Delete work with space
+nnoremap sd viwohd
