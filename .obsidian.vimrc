@@ -1,3 +1,7 @@
+" Russian langmap
+" https://www.linux.org.ru/forum/development/14418127
+" https://github.com/esm7/obsidian-vimrc-support/issues/204
+set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
 " https://github.com/esm7/obsidian-vimrc-support
 exmap checkmark obcommand editor:cycle-list-checklist
 " doesn't work in multiline visual mode
