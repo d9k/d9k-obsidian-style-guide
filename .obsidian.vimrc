@@ -2,6 +2,11 @@
 " https://www.linux.org.ru/forum/development/14418127
 " https://github.com/esm7/obsidian-vimrc-support/issues/204
 set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
+
+"Doesn't work
+"nmap Ё ~
+"nmap ё ~
+
 " https://github.com/esm7/obsidian-vimrc-support
 exmap checkmark obcommand editor:cycle-list-checklist
 " doesn't work in multiline visual mode
@@ -145,4 +150,4 @@ map <A-n> {{j
 "nnoremap d<Space> viwohx
 
 " Delete work with space
-nnoremap sd viwohd
+nnoremap sd viwohdw
