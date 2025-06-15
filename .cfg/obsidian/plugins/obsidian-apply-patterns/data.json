@@ -220,7 +220,7 @@
           "disabled": false
         },
         {
-          "from": "[·—]+",
+          "from": "[·—•]+",
           "to": " | ",
           "caseInsensitive": false,
           "global": true,
