@@ -983,6 +983,32 @@
       "cursorRegexEnd": "^"
     },
     {
+      "name": "# (\\) header checkbox task: hold",
+      "rules": [
+        {
+          "from": "(#+.*):black_square_button:[ ]*",
+          "to": "$1",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "(#+)",
+          "to": "$1 :hand:",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": true,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
       "name": "# [ ] BUG header checkbox task: todo",
       "rules": [
         {
