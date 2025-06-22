@@ -4,6 +4,7 @@ Anthony GG
 Anton Putra
 Berr's Tech
 Better Stack
+bigboxSWE
 Brodie Robertson
 CppCon
 DeadP47
@@ -18,6 +19,7 @@ GIMPTutsbyER
 Jake@Linux
 Josean Martinez
 Josh Medeski
+Kodaps Academy
 Learn Linux TV
 Slidebean
 OldManTV
