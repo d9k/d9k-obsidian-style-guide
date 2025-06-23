@@ -151,3 +151,5 @@ map <A-n> {{j
 
 " Delete work with space
 nnoremap sd viwohdw
+
+nnoremap sc ?```<CR>jV/```<CR>ky
