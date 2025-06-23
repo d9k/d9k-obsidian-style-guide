@@ -161,7 +161,8 @@
   "app:toggle-left-sidebar": [
     {
       "modifiers": [
-        "Alt"
+        "Alt",
+        "Shift"
       ],
       "key": "Q"
     }
@@ -170,7 +171,8 @@
   "file-explorer:reveal-active-file": [
     {
       "modifiers": [
-        "Alt"
+        "Alt",
+        "Shift"
       ],
       "key": "W"
     }
@@ -182,14 +184,6 @@
         "Mod"
       ],
       "key": "W"
-    }
-  ],
-  "obsidian-quiet-outline:quiet-outline": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "2"
     }
   ],
   "file-explorer:open": [
@@ -775,5 +769,47 @@
       "key": "B"
     }
   ],
-  "graph:open": []
+  "graph:open": [],
+  "editor:toggle-blockquote": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Q"
+    }
+  ],
+  "find-and-replace-in-selection:find-and-replace-in-selection": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "H"
+    }
+  ],
+  "obsidian-quiet-outline:quiet-outline": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "2"
+    }
+  ],
+  "obsidian-quiet-outline:quiet-outline-focus-input": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Q"
+    }
+  ],
+  "quick-explorer:browse-current": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "W"
+    }
+  ]
 }
