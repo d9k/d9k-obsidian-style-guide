@@ -12,7 +12,6 @@ exmap checkmark obcommand editor:cycle-list-checklist
 " doesn't work in multiline visual mode
 nmap m :checkmark
 
-
 " doesn't work 
 "nmap n <C-l>
 
@@ -31,7 +30,6 @@ nmap at :linkloadtitle
 nnoremap <C-e> <C-u>
 vnoremap <C-e> <C-u>
 
-
 nnoremap z<CR> zz
 nnoremap zz z<CR>
 " doesn't work
@@ -42,7 +40,6 @@ nnoremap zz z<CR>
 
 " doesn't work
 "nmap n <down>
-
 
 "nunmap <C-v>
 
@@ -58,7 +55,6 @@ exmap nextheading obcommand obsidian-editor-shortcuts:goToNextHeading
 exmap newtab obcommand workspace:new-tab
 "nmap n :newtab
 
-
 unmap <Space>
 "map <Space><Space> <C-[>:checkmark
 noremap <Space><Space> :checkmark<CR>
@@ -72,16 +68,17 @@ nnoremap <Space>D j"_ddk
 "nnoremap <Space><gt> <Tab>
 "nnoremap <Space>> <Tab>
 "nnoremap <Space>> itest
-"
+
 "Doesn't work
 nnoremap <Space>> <tab>
 "nnoremap <Space>> :obsidian-editor-shortcuts:indent-using-tabs
 "<C-]> 
 
-" to replace without clipboard override
+" To replace without clipboard override
 nnoremap c "_c
 nnoremap x "_x
 
+" Delete/Backspace: don't replace clipboard
 nnoremap <Del> "_<Del>
 nnoremap <BS> "_Xi
 
@@ -126,27 +123,24 @@ map <A-i> /[A-ZА-Я]<CR>
 " Go to next alphanum word
 map <A-u> /[a-zA-Zа-яА-Я0-9]+<CR>
 
+"Next/previous heading
 map <A-j> /^#<CR>
 map <A-k> ?^#<CR>
 " ru: doesn't work
 "map <A-л> /^#<CR>
 "map <A-о> ?^#<CR>
 
-map <A-Del> lxh
-
 "Doesn't work 
 "map <A-X> lxh
 
+" Next/previous block of code
 map <A-m> }}{j
-"map <A-n> {{}k
-"map <A-n> {{}k
 map <A-n> {{j
-"map <A-J> jjj
 
 "map <A-m> /^.<CR>
 "map <A-n> ?^.<CR>
 
-" Delete work with space. Doesn't work!
+" Delete word with space. Doesn't work!
 "nnoremap d<Space> viwohx
 
 " Delete word with space
