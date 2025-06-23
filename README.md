@@ -8,7 +8,10 @@
 
 ## Structure
 
-- [Obsidian config][]
+- `/.cfg/obsidian/`: Obsidian config
+	- `/snippets/` - CSS snippets for `Appearence -> CSS snippets` in settings.
+- `/markdown-autocomplete/`: autocompletions for [various complements](https://github.com/tadashi-aikawa/obsidian-various-complements-plugin) plugin.
+
 
 ## Installation
 
