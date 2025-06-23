@@ -23,5 +23,8 @@
   "obsidian-sort-and-permute-lines",
   "cmdr",
   "sticky-heading",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "obsidian-excel-to-markdown-table",
+  "obsidian-regex-replace",
+  "remember-cursor-position"
 ]
