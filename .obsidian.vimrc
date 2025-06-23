@@ -149,7 +149,7 @@ map <A-n> {{j
 " Delete work with space. Doesn't work!
 "nnoremap d<Space> viwohx
 
-" Delete work with space
+" Delete word with space
 nnoremap sd viwohdw
 
 nnoremap sc ?```<CR>jV/```<CR>ky
