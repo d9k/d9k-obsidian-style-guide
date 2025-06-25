@@ -1657,7 +1657,7 @@
         },
         {
           "from": "\\[(.*)\\]\\((.*)\\)",
-          "to": "## $1\\n\\n- $2",
+          "to": "## $1\\n\\n$2",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
