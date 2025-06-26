@@ -1,1 +1,1 @@
-<span>&hairsp;s</span>
+​s
