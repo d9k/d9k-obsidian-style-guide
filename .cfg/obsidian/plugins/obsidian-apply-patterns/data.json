@@ -257,7 +257,7 @@
         },
         {
           "from": "\\]\\(https://vkvideo",
-          "to": "| VK video](https://vkvideo",
+          "to": " | VK video](https://vkvideo",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
