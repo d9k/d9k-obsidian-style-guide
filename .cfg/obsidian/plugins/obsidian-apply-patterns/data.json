@@ -256,17 +256,8 @@
           "disabled": false
         },
         {
-          "from": "\\]\\(https://vkvideo",
-          "to": " | VK video](https://vkvideo",
-          "caseInsensitive": false,
-          "global": false,
-          "multiline": false,
-          "sticky": false,
-          "disabled": false
-        },
-        {
-          "from": "(\\[.{1}\\])[ ]*(\\[*| VK video\\])",
-          "to": "$1 :tv: $2",
+          "from": "(\\[.{1}\\])[ ]*\\[(.*)\\]\\(https://vkvideo",
+          "to": "$1 :tv: [$2 | VK video](https://vkvideo",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
