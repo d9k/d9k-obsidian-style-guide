@@ -254,6 +254,24 @@
           "multiline": false,
           "sticky": false,
           "disabled": false
+        },
+        {
+          "from": "\\]\\(https://vkvideo",
+          "to": "| VK video](https://vkvideo",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "(\\[.{1}\\])[ ]*(\\[*| VK video\\])",
+          "to": "$1 :tv: $2",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
         }
       ],
       "collapsed": false,
@@ -1674,7 +1692,7 @@
           "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -1877,7 +1895,7 @@
       "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "",
+  "filterString": "fix",
   "commandFilterString": "",
   "commands": [
     {
