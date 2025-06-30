@@ -1674,8 +1674,8 @@
           "disabled": false
         },
         {
-          "from": "\\[(.*)\\]\\((.*)\\)",
-          "to": "## $1\\n\\n$2",
+          "from": "([\\- \\t]*)((\\[.\\]){0,1})[ \\t]*\\[(.*)\\]\\((.*)\\)",
+          "to": "## $4\\n\\n$5",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
@@ -1895,7 +1895,7 @@
       "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "reddit",
+  "filterString": "split",
   "commandFilterString": "",
   "commands": [
     {
