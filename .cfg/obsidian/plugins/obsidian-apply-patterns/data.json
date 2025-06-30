@@ -457,8 +457,8 @@
           "disabled": false
         },
         {
-          "from": "^([ \\t]*)-*[ \\t]*([^\\n\\r]*)",
-          "to": "$1- :speech_balloon: $2",
+          "from": "^([ \\t]*)-*[ \\t]*(\\[.{1}\\][ \\t]*)([^\\n\\r]*)",
+          "to": "$1- $2:speech_balloon: $3",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
@@ -466,7 +466,7 @@
           "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -1895,7 +1895,7 @@
       "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "fix",
+  "filterString": "reddit",
   "commandFilterString": "",
   "commands": [
     {
