@@ -1,1 +1,1 @@
-- :point_right: [[job-garbage#^|garbage: ]]
+- :point_right: [[job-garbage#^|тех. собес. / job garbage]]

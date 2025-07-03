@@ -198,6 +198,7 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 
 ### Emotional valuation
 
+- :heart_on_fire: motivation
 - :thinking_face: doubt in solution
 - :exploding_head: mind blown, all of a sudden
 - :thumbsup: cool
