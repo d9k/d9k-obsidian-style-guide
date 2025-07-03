@@ -256,8 +256,8 @@
           "disabled": false
         },
         {
-          "from": "(\\[.{1}\\])[ ]*\\[(.*)\\]\\(https://vkvideo",
-          "to": "$1 :tv: [$2 | VK video](https://vkvideo",
+          "from": "\\[([^\\[\\]]*)\\]\\(https://vkvideo",
+          "to": ":tv: [$1 | VK video](https://vkvideo",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
@@ -1895,7 +1895,7 @@
       "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "split",
+  "filterString": "",
   "commandFilterString": "",
   "commands": [
     {
