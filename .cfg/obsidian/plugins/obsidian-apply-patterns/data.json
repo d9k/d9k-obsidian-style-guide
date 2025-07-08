@@ -717,8 +717,8 @@
       "name": "React/Vue/JSX component",
       "rules": [
         {
-          "from": "(.*)",
-          "to": "`<$1>`",
+          "from": "([\\-\\t ]*)(.*)",
+          "to": "$1:gem: `<$2>`",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
@@ -726,7 +726,7 @@
           "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -1893,9 +1893,35 @@
       "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
+    },
+    {
+      "name": "__TEST__replace_hyphen",
+      "rules": [
+        {
+          "from": "([- ]*)",
+          "to": "333$1444",
+          "caseInsensitive": false,
+          "global": true,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "__TEST__replace",
+          "to": "",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": false,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "",
+  "filterString": "Vue",
   "commandFilterString": "",
   "commands": [
     {
