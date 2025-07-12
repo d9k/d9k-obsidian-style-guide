@@ -1928,9 +1928,26 @@
       "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
+    },
+    {
+      "name": "no more partial",
+      "rules": [
+        {
+          "from": "[ ]*:trident:[ ]*",
+          "to": "",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": false,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "done",
+  "filterString": "",
   "commandFilterString": "",
   "commands": [
     {
