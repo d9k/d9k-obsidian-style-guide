@@ -961,6 +961,15 @@
           "disabled": false
         },
         {
+          "from": "(#+.*):negative_squared_cross_mark:[ ]*",
+          "to": "$1",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
           "from": "(#+)",
           "to": "$1 :white_check_mark:",
           "caseInsensitive": false,
@@ -970,7 +979,7 @@
           "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -1921,7 +1930,7 @@
       "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "Vue",
+  "filterString": "done",
   "commandFilterString": "",
   "commands": [
     {
