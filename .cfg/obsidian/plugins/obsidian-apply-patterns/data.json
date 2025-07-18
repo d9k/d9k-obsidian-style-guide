@@ -1930,7 +1930,7 @@
       "cursorRegexEnd": "^"
     },
     {
-      "name": "no more partial",
+      "name": "task header: no more partially split",
       "rules": [
         {
           "from": "[ ]*:trident:[ ]*",
@@ -1943,6 +1943,23 @@
         }
       ],
       "collapsed": false,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "task header: partially split",
+      "rules": [
+        {
+          "from": "$",
+          "to": " :trident:",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -1991,7 +2008,7 @@
       "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "",
+  "filterString": "partial",
   "commandFilterString": "",
   "commands": [
     {
