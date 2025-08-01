@@ -890,9 +890,18 @@
           "multiline": false,
           "sticky": false,
           "disabled": false
+        },
+        {
+          "from": ":[0-9]+`",
+          "to": "`",
+          "caseInsensitive": false,
+          "global": true,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -2008,7 +2017,7 @@
       "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "partial",
+  "filterString": "",
   "commandFilterString": "",
   "commands": [
     {
