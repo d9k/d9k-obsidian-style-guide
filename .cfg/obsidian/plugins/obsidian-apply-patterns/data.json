@@ -457,8 +457,8 @@
           "disabled": false
         },
         {
-          "from": "^([ \\t]*)-*[ \\t]*(\\[.{1}\\][ \\t]*)([^\\n\\r]*)",
-          "to": "$1- $2:speech_balloon: $3",
+          "from": "^([ \\t]*)-*[ \\t]*((\\[.{1}\\]){0,1}[ \\t]*)(.*)",
+          "to": "$1- $2:speech_balloon: $4",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
