@@ -157,6 +157,15 @@
           "disabled": false
         },
         {
+          "from": "\\[(.*) — купить, цена в .*\\]",
+          "to": ":shopping_trolley:  [$1]",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
           "from": "(\\[[^\\[]+ \\| Hacker News\\])",
           "to": ":speech_balloon: $1",
           "caseInsensitive": false,
