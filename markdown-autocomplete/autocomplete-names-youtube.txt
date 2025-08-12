@@ -8,6 +8,7 @@ bigboxSWE
 Brodie Robertson
 CppCon
 DeadP47
+Depressed Nousagi
 Digging The Greats
 Dreams of Code
 Dushnila
@@ -25,6 +26,7 @@ Slidebean
 OldManTV
 RobertElderSoftware
 SHANKANAKA
+Severina Soda
 Spencer's Adventures
 TechDweeb
 Tech Talk
@@ -34,6 +36,7 @@ Retro Game Corps
 ThePrimeagen
 ThePrimeTimeagen
 Titus Tech Talk
+Vtuber Sensei
 White Box Dev
 xk vods
 Валерий Петухов
