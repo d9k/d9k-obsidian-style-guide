@@ -7,7 +7,8 @@
 .cfg/obsidian/plugins/obsidian-image-toolkit
 .cfg/obsidian/plugins/obsidian-quiet-outline
 .cfg/obsidian/plugins/recent-files-obsidian
-.cfg/obsidian/plugins/various-complements/histories.json
 .cfg/obsidian/plugins/remember-cursor-position/cursor-positions.json
+.cfg/obsidian/plugins/scrolling/scrolling-positions.json
+.cfg/obsidian/plugins/various-complements/histories.json
 obsidian-templater/_*
 markdown-autocomplete/_*
