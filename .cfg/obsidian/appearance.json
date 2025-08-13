@@ -21,7 +21,9 @@
     "sticky-headings-fix-pos",
     "sticky-headings",
     "view-header",
-    "line-numbers"
+    "line-numbers",
+    "hightlight-current-line",
+    "vim-yank-highlight"
   ],
-  "baseFontSize": 15
+  "baseFontSize": 17
 }
