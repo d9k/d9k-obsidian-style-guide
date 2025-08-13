@@ -1,0 +1,6 @@
+/* .CodeMirror-activeline .CodeMirror-linebackground { */
+.mod-active .cm-active.cm-line {
+    /* background-color: rgba(0, 120, 255, 0.2) !important; */
+
+    background-color: rgba(0, 5, 15, 0.4) !important;
+}
