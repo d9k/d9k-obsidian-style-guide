@@ -53,9 +53,15 @@ exmap q :tabclose
 exmap nextheading obcommand obsidian-editor-shortcuts:goToNextHeading
 
 exmap newtab obcommand workspace:new-tab
+
+exmap reloadconfig :source .obsidian.vimrc
 "nmap n :newtab
 
 unmap <Space>
+" Reload config
+"nmap <Space>vr :source reload-config
+nmap <Space>vr :reloadconfig<CR>
+
 "map <Space><Space> <C-[>:checkmark
 noremap <Space><Space> :checkmark<CR>
 "map <Space><Space> <C-[><C-l>
@@ -147,3 +153,10 @@ map <A-n> {{j
 nnoremap sd viwohdw
 
 nnoremap sc ?```<CR>jV/```<CR>ky
+
+" Next/previous `code` inside backticks
+noremap ]` <Esc>/`<CR>n<Esc>vi`
+noremap [` <Esc>?`<CR>hn<Esc>lvi`
+
+" testing reload config
+noremap [t hhh
