@@ -155,8 +155,9 @@ nnoremap sd viwohdw
 nnoremap sc ?```<CR>jV/```<CR>ky
 
 " Next/previous `code` inside backticks
-noremap ]` <Esc>/`<CR>n<Esc>vi`
-noremap [` <Esc>?`<CR>hn<Esc>lvi`
+noremap ]` <Esc>/`<CR>n<Esc>vi`o
+"noremap ]` <Esc>/`[^`]/+`<CR><Esc>lvi`
+noremap [` <Esc>?`<CR>nhvi`
 
 " testing reload config
 noremap [t hhh
