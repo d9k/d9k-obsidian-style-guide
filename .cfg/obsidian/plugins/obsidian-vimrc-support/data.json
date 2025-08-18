@@ -55,9 +55,9 @@
   },
   "supportJsCommands": false,
   "vimStatusPromptMap": {
-    "normal": "🟢",
-    "insert": "🟠",
-    "visual": "🟡",
-    "replace": "🔴"
+    "normal": "NORMAL   🟢",
+    "insert": "INSERT   🟠",
+    "visual": "VISUAL   🔵",
+    "replace": "REPLACE   🔴"
   }
 }
