@@ -120,18 +120,25 @@ map s} :surround_curly_brackets<CR>
 "noremap sE` vE
 "map sE` vEes`
 
-" Go to next capital letter
+" Go to next/previous capital letter
 map <A-i> /[A-ZА-Я]<CR>
+map ]a /[A-ZА-Я]<CR>
+map [a ?[A-ZА-Я]<CR>
+
 "map <A-n> /[A-ZА-Я]<CR>
 "<Esc> doesn't work
 "<C-[> breaks things
 
-" Go to next alphanum word
+" Go to next/previous alphanum word
 map <A-u> /[a-zA-Zа-яА-Я0-9]+<CR>
+map ]w /[a-zA-Zа-яА-Я0-9]+<CR>
+map [w ?[a-zA-Zа-яА-Я0-9]+<CR>
 
 "Next/previous heading
 map <A-j> /^#<CR>
 map <A-k> ?^#<CR>
+map ]h /^#<CR>
+map [h ?^#<CR>
 " ru: doesn't work
 "map <A-л> /^#<CR>
 "map <A-о> ?^#<CR>
