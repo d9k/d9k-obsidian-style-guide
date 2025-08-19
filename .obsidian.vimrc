@@ -146,9 +146,12 @@ map [h ?^#<CR>
 "Doesn't work 
 "map <A-X> lxh
 
-" Next/previous block of code
+" Next/previous block of text
 map <A-m> }}{j
 map <A-n> {{j
+
+map ]b }}{j
+map [b {{j
 
 "map <A-m> /^.<CR>
 "map <A-n> ?^.<CR>
@@ -165,6 +168,10 @@ nnoremap sc ?```<CR>jV/```<CR>ky
 noremap ]` <Esc>/`<CR>n<Esc>vi`o
 "noremap ]` <Esc>/`[^`]/+`<CR><Esc>lvi`
 noremap [` <Esc>?`<CR>nhvi`
+
+" Next/previous strings inside double quotes
+noremap ]" <Esc>/"<CR>n<Esc>vi"o
+noremap [" <Esc>?"<CR>nhvi"
 
 " testing reload config
 noremap [t hhh
