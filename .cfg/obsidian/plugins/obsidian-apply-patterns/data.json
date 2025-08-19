@@ -1421,8 +1421,17 @@
       "name": "- `JSON value escape`",
       "rules": [
         {
+          "from": ",$",
+          "to": "",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
           "from": "[- ]*\"([^\"]+)\":[ ]*([^\\n\\r]+)",
-          "to": "- `$1: $2`",
+          "to": "- `$1`: `$2`",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
@@ -1430,7 +1439,7 @@
           "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -2052,7 +2061,7 @@
       "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "",
+  "filterString": "JSON",
   "commandFilterString": "",
   "commands": [
     {
