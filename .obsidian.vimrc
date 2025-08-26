@@ -163,6 +163,7 @@ map [b {{j
 "nnoremap sd viwohdw
 "nnoremap sd viwoh<Esc>/ {0,1}[a-zA-Zа-яА-Я0-9]+<CR>d
 nnoremap sd viwohh<Esc>?<Space>{0,1}[a-zA-Zа-яёА-Я0-9]+<CR>Ngnd<Esc>w
+nnoremap sD viwohh<Esc>?<Space>{0,1}[a-zA-Zа-яёА-Я0-9@\-_]+<CR>Ngnd<Esc>w
 "nnoremap sd viwoh<Esc>:s/<Space>{0,1}[a-zA-Zа-яА-Я0-9]+//<CR>
 "nnoremap sd viwoh<Esc>/%s/<Space>{0,1}[a-zA-Zа-яА-Я0-9]+
 "//<CR>d
