@@ -175,6 +175,11 @@ noremap ]` <Esc>/`<CR>n<Esc>vi`o
 "noremap ]` <Esc>/`[^`]/+`<CR><Esc>lvi`
 noremap [` <Esc>?`<CR>nhvi`
 
+" Next/previous inside square brackets
+noremap ][ <Esc>/\[<CR><Esc>vi[o
+"noremap ]` <Esc>/`[^`]/+`<CR><Esc>lvi`
+noremap [] <Esc>?\[<CR><Esc>nlvi[
+
 " Next/previous strings inside double quotes
 noremap ]" <Esc>/"<CR>n<Esc>vi"o
 noremap [" <Esc>?"<CR>nhvi"
