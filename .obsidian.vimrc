@@ -184,5 +184,9 @@ noremap [] <Esc>?\[<CR><Esc>nlvi[
 noremap ]" <Esc>/"<CR>n<Esc>vi"o
 noremap [" <Esc>?"<CR>nhvi"
 
+" Next/previous http link
+noremap ]l <Esc>/http<CR><Esc>
+noremap [l <Esc>?http<CR><Esc>
+
 " testing reload config
 noremap [t hhh
