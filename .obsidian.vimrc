@@ -195,3 +195,6 @@ noremap [l <Esc>?http<CR><Esc>
 
 " testing reload config
 noremap [t hhh
+
+" yank [i]nside [h]eader
+nnoremap <Space>yh F#wy$
