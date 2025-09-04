@@ -23,7 +23,8 @@
     "view-header",
     "line-numbers",
     "hightlight-current-line",
-    "vim-yank-highlight"
+    "vim-yank-highlight",
+    "editor-dimensions"
   ],
   "baseFontSize": 17
 }
