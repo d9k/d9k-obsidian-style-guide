@@ -6,11 +6,13 @@
 - See :tv: [Every USEFUL Markdown Syntax That I Use in Obsidian | FromSergio | YT](https://www.youtube.com/watch?v=d8fXEhWy_rY)
 - See [recommended plugins | d9k-textbook](https://github.com/d9k/d9k-textbook/blob/master/markdown/obsidian-plugins.md)
 
-## Structure
+## Folders structure
 
 - `/.cfg/obsidian/`: Obsidian config
-	- `/snippets/` - CSS snippets for `Appearence -> CSS snippets` in settings.
-- `/markdown-autocomplete/`: autocompletions for [various complements](https://github.com/tadashi-aikawa/obsidian-various-complements-plugin) plugin.
+	- `/.cfg/obsidian/snippets/` - CSS snippets for `Appearence -> CSS snippets` in settings.
+	- `.cfg/obsidian/plugins/obsidian-apply-patterns/data.json` - patterns for [Apply patterns](https://github.com/jglev/obsidian-apply-patterns-plugin) plugin
+- `/markdown-autocomplete/`: autocompletions for [Various complements](https://github.com/tadashi-aikawa/obsidian-various-complements-plugin) plugin.
+- `/obsidian-templater/`: templates for [Templater](https://github.com/SilentVoid13/Templater) plugin.
 
 
 ## Installation
@@ -145,6 +147,7 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :arrows_clockwise: small refactor
 - :carpentry_saw: big refactor
 - :lower_left_paintbrush: дизайн / CSS / styling
+- :fountain: root/parent task link
 - :arrow_right: route
 - :point_right::blue_book: to documentation / README
 - :classical_building: internet archive / non-original / mirror link
@@ -306,8 +309,7 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - 🚂 :articulated_lorry: 🚚 🚀 🚖 🏃 🏃🏻‍♂️‍➡️ 🚜 - automation (alternative)
 - :snail: :turtle: ❆ ༄ :snowman: 🥶 🏖️ 🚴 slow?
 - 🏍 :rocket: :zap: :horse_racing: :racehorse::runner::hot_pepper: :hotsprings: :racing_car: 🏍️ 🫨 :bullettrain_side: :bullettrain_front: 🏎 ⏭ ᯓ🏃🏻‍♀️‍➡️❤️‍🔥🌡️🦅 🐇 🥵 🦾 👢 🥾 👣 🪽 ⛵ fast? / speed?
-
-
+- 🌱🪹🪬:fountain: - root?
 
 ## Foldable blocks
 
