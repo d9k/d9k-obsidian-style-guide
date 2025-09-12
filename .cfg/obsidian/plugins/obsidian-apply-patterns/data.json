@@ -1478,6 +1478,23 @@
       "cursorRegexEnd": "^"
     },
     {
+      "name": "- explanation (list item)",
+      "rules": [
+        {
+          "from": "^([ \\t]*)-*[ \\t]*([^\\n\\r]*)",
+          "to": "$1- :information_source: _$2_",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": true,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
       "name": "- `visual component`",
       "rules": [
         {
