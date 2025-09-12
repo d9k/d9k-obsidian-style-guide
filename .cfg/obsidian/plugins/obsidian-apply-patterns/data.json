@@ -371,7 +371,24 @@
           "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "`inline error message` ( - list item)",
+      "rules": [
+        {
+          "from": "^([ \\t]*)-*[ \\t]*([^\\n\\r]*)",
+          "to": "$1- :rotating_light: `$2`",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -1118,7 +1135,7 @@
           "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -2061,7 +2078,7 @@
       "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "JSON",
+  "filterString": "inline",
   "commandFilterString": "",
   "commands": [
     {
