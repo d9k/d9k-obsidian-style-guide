@@ -281,6 +281,15 @@
           "multiline": false,
           "sticky": false,
           "disabled": false
+        },
+        {
+          "from": "\\[([^\\[]+ \\| Discussion #\\d+)\\]",
+          "to": ":speech_balloon: [$1]",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
         }
       ],
       "collapsed": false,
@@ -2095,7 +2104,7 @@
       "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "inline",
+  "filterString": "",
   "commandFilterString": "",
   "commands": [
     {
