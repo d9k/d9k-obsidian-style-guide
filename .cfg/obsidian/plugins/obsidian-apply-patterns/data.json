@@ -1401,6 +1401,57 @@
       "cursorRegexEnd": "^"
     },
     {
+      "name": "multiline JSON code block (```json)",
+      "rules": [
+        {
+          "from": "([^¶]+)",
+          "to": "```json\\n$1\\n```",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": true,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": true,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "multiline TypeScript code block (```ts)",
+      "rules": [
+        {
+          "from": "([^¶]+)",
+          "to": "```ts\\n$1\\n```",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": true,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": true,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "multiline JavaScript code block (```js)",
+      "rules": [
+        {
+          "from": "([^¶]+)",
+          "to": "```js\\n$1\\n```",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": true,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": true,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
       "name": "# can't reproduce test header task",
       "rules": [
         {
