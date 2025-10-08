@@ -322,14 +322,6 @@
       "key": "I"
     }
   ],
-  "search-on-internet:search-on-internet": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "Z"
-    }
-  ],
   "cycle-through-panes:cycle-through-panes-reverse": [
     {
       "modifiers": [
@@ -810,6 +802,23 @@
         "Alt"
       ],
       "key": "W"
+    }
+  ],
+  "pane-relief:toggle-sliding": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Z"
+    }
+  ],
+  "maximise-active-pane-obsidian:maximise-active-pane": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "x"
     }
   ]
 }
