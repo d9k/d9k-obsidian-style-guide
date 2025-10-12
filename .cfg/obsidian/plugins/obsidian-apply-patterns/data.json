@@ -2162,6 +2162,23 @@
       "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
+    },
+    {
+      "name": "Telegram delete name",
+      "rules": [
+        {
+          "from": "^Dmitry \\[d9k\\], \\[.*",
+          "to": "",
+          "caseInsensitive": false,
+          "global": true,
+          "multiline": true,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": false,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
     }
   ],
   "filterString": "",
