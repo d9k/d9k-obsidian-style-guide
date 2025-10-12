@@ -290,6 +290,15 @@
           "multiline": false,
           "sticky": false,
           "disabled": false
+        },
+        {
+          "from": "\\[Google Code Archive - Long-term storage for Google Code Project Hosting.\\]",
+          "to": "[ | Google Code Archive]",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
         }
       ],
       "collapsed": false,
