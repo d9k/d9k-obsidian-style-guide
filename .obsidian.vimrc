@@ -139,6 +139,8 @@ map <A-j> /^#<CR>
 map <A-k> ?^#<CR>
 map ]h /^#<CR>
 map [h ?^#<CR>
+map <A-Down> /^#<CR>
+map <A-Up> ?^#<CR>
 " ru: doesn't work
 "map <A-л> /^#<CR>
 "map <A-о> ?^#<CR>
@@ -198,3 +200,21 @@ noremap [t hhh
 
 " yank [i]nside [h]eader
 nnoremap <Space>yh F#wy$
+
+" yank trimmed text inside line
+"map <Space>yl ^y$
+"nnoremap <Space>yl ^y$
+nnoremap <Space>yl "+^y$
+" Doesn't work:
+"nnoremap yl "+^y$
+"nmap yl "+^y$
+
+" TODO F# doesn't work!
+"nmap yh F#wy$
+
+" TODO doesn't work
+"nmap `$ <Esc>v$$s`
+"nmap `$ <Esc>v\$s`
+
+"nmap <Space>y ^y$
+
