@@ -93,22 +93,10 @@
       "modifiers": [
         "Alt"
       ],
-      "key": "ArrowRight"
-    },
-    {
-      "modifiers": [
-        "Alt"
-      ],
       "key": "L"
     }
   ],
   "editor:focus-left": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "ArrowLeft"
-    },
     {
       "modifiers": [
         "Alt"
@@ -520,7 +508,7 @@
       "modifiers": [
         "Alt"
       ],
-      "key": "ArrowDown"
+      "key": "ArrowRight"
     }
   ],
   "heycalmdown-navigate-cursor-history:cursor-position-backward": [
@@ -528,7 +516,7 @@
       "modifiers": [
         "Alt"
       ],
-      "key": "ArrowUp"
+      "key": "ArrowLeft"
     }
   ],
   "pane-relief:go-next": [],
