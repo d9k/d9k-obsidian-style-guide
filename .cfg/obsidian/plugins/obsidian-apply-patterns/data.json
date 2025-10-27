@@ -455,6 +455,23 @@
       "cursorRegexEnd": "^"
     },
     {
+      "name": "`search terms` ( - list item)",
+      "rules": [
+        {
+          "from": "^([ \\t]*)-*[ \\t]*([^\\n\\r]*)",
+          "to": "$1- :mag_right: `$2`",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": false,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
       "name": " - `cli command`",
       "rules": [
         {
