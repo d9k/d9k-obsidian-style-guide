@@ -1,5 +1,5 @@
 .view-content > .markdown-source-view > .cm-editor > .cm-scroller {
-  padding-left: 8px !important;
+  padding-left: 12px !important;
 }
 
 .markdown-source-view .cm-gutters {
@@ -14,4 +14,7 @@
 
 body {
   --nav-item-size: 15px;
+
+  /** Pane Relief: Toggle sliding panes setting */
+  --pr-sliding-panes-width: 750px;
 }
