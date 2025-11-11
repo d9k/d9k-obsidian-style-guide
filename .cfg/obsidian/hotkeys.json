@@ -155,7 +155,14 @@
       "key": "Q"
     }
   ],
-  "editor:toggle-bold": [],
+  "editor:toggle-bold": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "B"
+    }
+  ],
   "file-explorer:reveal-active-file": [
     {
       "modifiers": [
@@ -741,14 +748,6 @@
       "key": "G"
     }
   ],
-  "obsidian-editor-shortcuts:expandSelectionToBrackets": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "B"
-    }
-  ],
   "graph:open": [],
   "editor:toggle-blockquote": [
     {
@@ -807,6 +806,15 @@
         "Shift"
       ],
       "key": "x"
+    }
+  ],
+  "obsidian-editor-shortcuts:expandSelectionToBrackets": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "B"
     }
   ]
 }
