@@ -1,0 +1,17 @@
+.view-content > .markdown-source-view > .cm-editor > .cm-scroller {
+  padding-left: 8px !important;
+}
+
+.markdown-source-view .cm-gutters {
+  margin-right: 20px !important;
+  min-width: 40px;
+}
+
+.nav-files-container {
+  padding-left: 4px;
+  padding-right: 0;
+}
+
+body {
+  --nav-item-size: 15px;
+}
