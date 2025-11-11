@@ -22,6 +22,8 @@ Josean Martinez
 Josh Medeski
 Kodaps Academy
 Learn Linux TV
+Low Level Game Dev
+monobogdan
 Slidebean
 OldManTV
 RobertElderSoftware
@@ -34,6 +36,7 @@ Tech Talk
 The Linux Experiment
 theSeniorDev
 Retro Game Corps
+Retro Handheld Guides
 ThePrimeagen
 ThePrimeTimeagen
 Titus Tech Talk
