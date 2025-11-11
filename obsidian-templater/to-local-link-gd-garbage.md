@@ -1,1 +1,1 @@
-- :point_right: [[gd-garbage#^|garbage: ]]
+- :point_right: [[gd-garbage#^| / garbage]]
