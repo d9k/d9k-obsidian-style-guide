@@ -106,7 +106,7 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :tv: video
 - :headphones: podcast
 - :newspaper: article
-- :information_source: information block
+- :information_source: information block / explanation
 - :point_up_2: source
 - :collision: news article (as explosion - short, draws attention but have temporary value)
 
@@ -121,6 +121,7 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :electric_plug: environment, connection, credentials
 - :rotating_light: error code/text, crash
 - :warning: warning
+- :eye: log
 - :toolbox: tools
 - :open_file_folder: path to file locally/on repo
 - :balloon: interactive demo
@@ -141,6 +142,8 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - 🖧 LAN URL
 - :bow_and_arrow: pull request
 - :wood: crutch / temporary solution
+- :ballot_box_with_ballot: parameters
+- :hash: table
 - :test_tube: test
 * :alembic: test: big / TDD
 * :woman-shrugging: test not reproduced
@@ -166,6 +169,7 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 
 - :speech_balloon: discussions on forums/issues
 - :speaking_head_in_silhouette: asked question
+- :busts_in_silhouette: community
 - [-] :sunglasses: contacts / people
 - :male-office-worker: author / contact / social network account
 - :construction: (author not responding or doesn't plan to fix)
@@ -310,6 +314,10 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :snail: :turtle: ❆ ༄ :snowman: 🥶 🏖️ 🚴 slow?
 - 🏍 :rocket: :zap: :horse_racing: :racehorse::runner::hot_pepper: :hotsprings: :racing_car: 🏍️ 🫨 :bullettrain_side: :bullettrain_front: 🏎 ⏭ ᯓ🏃🏻‍♀️‍➡️❤️‍🔥🌡️🦅 🐇 🥵 🦾 👢 🥾 👣 🪽 ⛵ fast? / speed?
 - 🌱🪹🪬:fountain: - root?
+- :luc_play: ▶️ ➡️ <sup>𝑓 ()</sup> 𝑓𝓃 ƒ𝑛 - function / method?
+- :information_source: 💬 :open_book: - explanation
+- :bulb: :brain: 💭 :cloud: 👄 🧵 - idea
+- :eye: - log
 
 ## Foldable blocks
 
