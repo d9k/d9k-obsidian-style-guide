@@ -301,8 +301,8 @@
           "disabled": false
         },
         {
-          "from": "\\[(.*) - Defold game engine forum\\]",
-          "to": ":speech_balloon: [$1 | Defold forum]",
+          "from": "\\[(.*) - (.*) - Defold game engine forum\\]",
+          "to": ":speech_balloon: [$1 | $2 | Defold forum]",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
