@@ -195,8 +195,12 @@ noremap [" <Esc>?"<CR>nhvi"
 noremap ]l <Esc>/\bhttp<CR><Esc>
 noremap [l <Esc>?\bhttp<CR><Esc>
 
+" Next/previous target link
+noremap ]t <Esc>/(?:^|\s)\^[a-z0-9-]+<CR><Esc>
+noremap [t <Esc>?(?:^|\s)\^[a-z0-9-]+<CR><Esc>
+
 " testing reload config
-noremap [t hhh
+noremap <Space>t hhh
 
 " yank [i]nside [h]eader
 nnoremap <Space>yh F#wy$
