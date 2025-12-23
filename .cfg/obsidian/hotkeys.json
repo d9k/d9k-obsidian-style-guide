@@ -166,8 +166,7 @@
   "file-explorer:reveal-active-file": [
     {
       "modifiers": [
-        "Alt",
-        "Shift"
+        "Alt"
       ],
       "key": "W"
     }
@@ -786,7 +785,8 @@
   "quick-explorer:browse-current": [
     {
       "modifiers": [
-        "Alt"
+        "Alt",
+        "Shift"
       ],
       "key": "W"
     }
