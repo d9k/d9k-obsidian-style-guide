@@ -1971,7 +1971,7 @@
       "rules": [
         {
           "from": "(.*)",
-          "to": "(.*)",
+          "to": "***$1***",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
