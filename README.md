@@ -89,7 +89,7 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 ### Links
 
 * :luc_git_pull_request: GitLab / repo
-* :art: Figma
+* :art: Figma / graphical design layout
 * :lady_beetle: tracker: bug
 * :sparkles: tracker: new/improvement
 
@@ -118,6 +118,7 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :runner: run tutorial
 - :robot_face: automation
 - :bust_in_silhouette: access
+- ↔️ diff
 - :electric_plug: environment, connection, credentials
 - :rotating_light: error code/text, crash
 - :warning: warning
