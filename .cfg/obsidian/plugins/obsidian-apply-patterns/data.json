@@ -386,6 +386,23 @@
       "cursorRegexEnd": "^"
     },
     {
+      "name": "`inline code` ( - list item)",
+      "rules": [
+        {
+          "from": "^([ \\t]*)-*[ \\t]*([^\\n\\r]*)",
+          "to": "$1- `$2`",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": true,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
       "name": "`inline filtered code` ( - list item)",
       "rules": [
         {
@@ -418,23 +435,6 @@
         {
           "from": "`const ",
           "to": "`",
-          "caseInsensitive": false,
-          "global": false,
-          "multiline": false,
-          "sticky": false,
-          "disabled": false
-        }
-      ],
-      "collapsed": true,
-      "cursorRegexStart": "$",
-      "cursorRegexEnd": "^"
-    },
-    {
-      "name": "`inline code` ( - list item)",
-      "rules": [
-        {
-          "from": "^([ \\t]*)-*[ \\t]*([^\\n\\r]*)",
-          "to": "$1- `$2`",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
@@ -2364,7 +2364,7 @@
       "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "",
+  "filterString": "`",
   "commandFilterString": "",
   "commands": [
     {
