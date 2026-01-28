@@ -1,1 +1,1 @@
-:golf:
+:symbols::mag_right: ``
