@@ -412,7 +412,7 @@
       "cursorRegexEnd": "^"
     },
     {
-      "name": "`inline filtered code` ( - list item)",
+      "name": "! `inline filtered code` ( - list item)",
       "rules": [
         {
           "from": "^([ \\t]*)-*[ \\t]*([^\\n\\r]*)",
@@ -2373,7 +2373,7 @@
       "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "",
+  "filterString": "filtered",
   "commandFilterString": "",
   "commands": [
     {
