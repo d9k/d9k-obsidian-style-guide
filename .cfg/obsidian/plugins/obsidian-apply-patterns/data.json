@@ -308,6 +308,15 @@
           "multiline": false,
           "sticky": false,
           "disabled": false
+        },
+        {
+          "from": " at master \\|",
+          "to": " |",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
         }
       ],
       "collapsed": false,
@@ -2364,7 +2373,7 @@
       "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "`",
+  "filterString": "",
   "commandFilterString": "",
   "commands": [
     {
