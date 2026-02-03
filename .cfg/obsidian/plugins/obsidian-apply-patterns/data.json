@@ -458,6 +458,24 @@
           "multiline": false,
           "sticky": false,
           "disabled": false
+        },
+        {
+          "from": "`return ",
+          "to": "`",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "`this.",
+          "to": "`",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
         }
       ],
       "collapsed": false,
@@ -2387,9 +2405,16 @@
       "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
+    },
+    {
+      "name": "",
+      "rules": [],
+      "collapsed": false,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "filtered",
+  "filterString": "!",
   "commandFilterString": "",
   "commands": [
     {
