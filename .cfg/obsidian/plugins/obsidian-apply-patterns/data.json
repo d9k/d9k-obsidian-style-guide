@@ -442,6 +442,15 @@
           "disabled": false
         },
         {
+          "from": "`export ",
+          "to": "`",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
           "from": "`const ",
           "to": "`",
           "caseInsensitive": false,
