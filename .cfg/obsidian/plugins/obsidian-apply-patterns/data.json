@@ -476,6 +476,33 @@
           "multiline": false,
           "sticky": false,
           "disabled": false
+        },
+        {
+          "from": ",`",
+          "to": "`",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "`var ",
+          "to": "`",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": ":[ ]*\\bfunction\\b[ ]*",
+          "to": "",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
         }
       ],
       "collapsed": false,
