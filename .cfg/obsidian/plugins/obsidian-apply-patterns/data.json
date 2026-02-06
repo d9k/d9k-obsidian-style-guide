@@ -512,6 +512,33 @@
           "multiline": false,
           "sticky": false,
           "disabled": false
+        },
+        {
+          "from": "`function ",
+          "to": "`",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "[ ]*\\{`",
+          "to": "`",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": ":[ ]*void`",
+          "to": "",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
         }
       ],
       "collapsed": false,
@@ -1174,6 +1201,15 @@
           "disabled": false
         },
         {
+          "from": ":negative_squared_cross_mark: ",
+          "to": "",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
           "from": "(#+)[ -]*",
           "to": "$1 :black_square_button: ",
           "caseInsensitive": false,
@@ -1183,7 +1219,7 @@
           "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -2431,6 +2467,13 @@
           "disabled": false
         }
       ],
+      "collapsed": false,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "",
+      "rules": [],
       "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
