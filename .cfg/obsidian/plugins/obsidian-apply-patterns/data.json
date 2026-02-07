@@ -514,6 +514,15 @@
           "disabled": false
         },
         {
+          "from": "`local[ ]*",
+          "to": "`",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
           "from": "`function ",
           "to": "`",
           "caseInsensitive": false,
@@ -534,6 +543,15 @@
         {
           "from": ":[ ]*void`",
           "to": "",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "`for[ ]+",
+          "to": "for `",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
@@ -2486,8 +2504,25 @@
       "cursorRegexEnd": "^"
     },
     {
-      "name": "",
+      "name": "kebab-lowercase-case",
       "rules": [],
+      "collapsed": false,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "",
+      "rules": [
+        {
+          "from": "",
+          "to": "",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
       "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
