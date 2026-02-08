@@ -1593,7 +1593,7 @@
           "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -2490,20 +2490,6 @@
       "cursorRegexEnd": "^"
     },
     {
-      "name": "",
-      "rules": [],
-      "collapsed": false,
-      "cursorRegexStart": "$",
-      "cursorRegexEnd": "^"
-    },
-    {
-      "name": "",
-      "rules": [],
-      "collapsed": false,
-      "cursorRegexStart": "$",
-      "cursorRegexEnd": "^"
-    },
-    {
       "name": "kebab-lowercase-case",
       "rules": [],
       "collapsed": false,
@@ -2511,11 +2497,11 @@
       "cursorRegexEnd": "^"
     },
     {
-      "name": "",
+      "name": "add list icon",
       "rules": [
         {
-          "from": "",
-          "to": "",
+          "from": "^(\\s*[#\\-]*)(\\s*\\[.\\])?(\\s*)",
+          "to": "$1$2 :scroll: ",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
@@ -2528,7 +2514,7 @@
       "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "!",
+  "filterString": "list",
   "commandFilterString": "",
   "commands": [
     {
