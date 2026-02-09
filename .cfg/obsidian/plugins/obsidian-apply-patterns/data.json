@@ -618,17 +618,8 @@
       "name": "quote (_\")",
       "rules": [
         {
-          "from": "^",
-          "to": "_\"",
-          "caseInsensitive": false,
-          "global": false,
-          "multiline": false,
-          "sticky": false,
-          "disabled": false
-        },
-        {
-          "from": "$",
-          "to": "\"_",
+          "from": "([ \\t-]*)([^\\n\\r]*)",
+          "to": "$1_\"$2\"_",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
@@ -636,7 +627,7 @@
           "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -1418,7 +1409,7 @@
           "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -2514,7 +2505,7 @@
       "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "list",
+  "filterString": "quote",
   "commandFilterString": "",
   "commands": [
     {
