@@ -317,6 +317,15 @@
           "multiline": false,
           "sticky": false,
           "disabled": false
+        },
+        {
+          "from": " at main \\|",
+          "to": " |",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
         }
       ],
       "collapsed": false,
@@ -2389,7 +2398,7 @@
       "name": "Telegram delete name",
       "rules": [
         {
-          "from": "^Dmitry \\[d9k\\], \\[.*",
+          "from": "^Dmitry \\[d9k\\], \\[.*\\n",
           "to": "",
           "caseInsensitive": false,
           "global": true,
@@ -2398,7 +2407,7 @@
           "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -2505,7 +2514,7 @@
       "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "quote",
+  "filterString": "telegram",
   "commandFilterString": "",
   "commands": [
     {
