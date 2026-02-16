@@ -130,7 +130,7 @@
           "disabled": false
         },
         {
-          "from": "([\\[\\\\]*[^\\[]+ \\| issue #\\d+ \\| [^\\[]+\\])",
+          "from": "(\\[.* \\| issue #\\d+ \\| [^\\[]+\\])",
           "to": ":speech_balloon: $1",
           "caseInsensitive": false,
           "global": false,
@@ -220,10 +220,10 @@
           "disabled": false
         },
         {
-          "from": "<(.*)>",
-          "to": "`<$1>`",
+          "from": "([a-zA-Z0-9_]*)<([^<>]*)>",
+          "to": "`$1<$2>`",
           "caseInsensitive": false,
-          "global": false,
+          "global": true,
           "multiline": false,
           "sticky": false,
           "disabled": false
@@ -2514,7 +2514,7 @@
       "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "telegram",
+  "filterString": "link",
   "commandFilterString": "",
   "commands": [
     {
