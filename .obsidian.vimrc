@@ -3,6 +3,9 @@
 " https://github.com/esm7/obsidian-vimrc-support/issues/204
 set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
 
+" Yank to system clipboard
+set clipboard=unnamed
+
 "Doesn't work
 "nmap Ё ~
 "nmap ё ~
@@ -43,8 +46,8 @@ nnoremap zz z<CR>
 
 "nunmap <C-v>
 
-" Yank to system clipboard
-set clipboard=unnamed
+" [g]o last [c]ursor position
+noremap <Space>gc g`"zz
 
 exmap tabclose obcommand workspace:close
 exmap tabc :tabclose
@@ -56,6 +59,10 @@ exmap newtab obcommand workspace:new-tab
 
 exmap reloadconfig :source .obsidian.vimrc
 "nmap n :newtab
+
+"https://github.com/esm7/obsidian-vimrc-support/issues/277
+"exmap back obcommand app:go-back
+"exmap forward obcommand app:go-forward
 
 unmap <Space>
 " Reload config
@@ -164,8 +171,8 @@ map [b {{j
 " Delete word with space
 "nnoremap sd viwohdw
 "nnoremap sd viwoh<Esc>/ {0,1}[a-zA-Zа-яА-Я0-9]+<CR>d
-nnoremap sd viwohh<Esc>?<Space>{0,1}[a-zA-Zа-яёА-Я0-9]+<CR>Ngnd<Esc>w
-nnoremap sD viwohh<Esc>?<Space>{0,1}[a-zA-Zа-яёА-Я0-9@\-_]+<CR>Ngnd<Esc>w
+nnoremap sd viwoh<Esc>?<Space>{0,1}[a-zA-Zа-яёА-Я0-9]+<CR>Ngnd<Esc>w
+nnoremap sD viwoh<Esc>?<Space>{0,1}[a-zA-Zа-яёА-Я0-9@\-_]+<CR>Ngnd<Esc>w
 "nnoremap sd viwoh<Esc>:s/<Space>{0,1}[a-zA-Zа-яА-Я0-9]+//<CR>
 "nnoremap sd viwoh<Esc>/%s/<Space>{0,1}[a-zA-Zа-яА-Я0-9]+
 "//<CR>d
@@ -198,6 +205,10 @@ noremap [l <Esc>?\bhttp<CR><Esc>
 " Next/previous target link
 noremap ]t <Esc>/(?:^|\s)\^[a-z0-9-]+<CR><Esc>
 noremap [t <Esc>?(?:^|\s)\^[a-z0-9-]+<CR><Esc>
+
+" Next/previous [j]ira task
+noremap ]j <Esc>/\bNAV-<CR><Esc>
+noremap [j <Esc>?\bNAV-<CR><Esc>
 
 " testing reload config
 noremap <Space>t hhh
