@@ -386,6 +386,10 @@ Add `!` before local link.
 > [!info]
 > See [Callouts - Obsidian Help](https://help.obsidian.md/callouts) for more
 
+> [!note]
+> Just a quick note with a
+> > [!todo] TODO
+
 > [!tip]
 > Use can show code in the incut:
 > ```json
@@ -394,16 +398,17 @@ Add `!` before local link.
 
 > [!abstract]
 > That's about incuts/callouts
-> > [!success] success
+> > [!success]-
 > > The end after the long steps.
 
 > [!faq] Frequently Asked Questions
 > > [!warning]
+> > Something is wrong?
 > >
 > > [!tip]
 > > > Can we nest and fold?
 > >
-> > Yes. But right now (2026.02) this nested blocks group is broken
+> > Yes. But right now (2026.02) the nested blocks with multiple blocks on the same level are broken
 
 > [!danger]- Don't open!
 > > [!failure] here's your failure
