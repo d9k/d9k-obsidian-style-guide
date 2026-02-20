@@ -116,6 +116,7 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :cactus: branch / fork
 - :astronaut: research/experiment
 - :runner: run tutorial
+- :triangular_ruler: architecture
 - :robot_face: automation
 - :bust_in_silhouette: access
 - ↔️ diff
@@ -319,6 +320,7 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :information_source: 💬 :open_book: - explanation
 - :bulb: :brain: 💭 :cloud: 👄 🧵 - idea
 - :eye: - log
+- :open_book: 📕 📚 📔 - book?
 
 ## Foldable blocks
 
@@ -373,6 +375,40 @@ alert('Hello, world!');
 Add `!` before local link.
 
 ![[js-webassembly#^d9k-WASI-quote-2023-11-08]]
+
+## Incuts / callouts
+
+> [!example] example
+> See examples below
+> > [!quote] Mark Twain:
+> > _"Whenever you find that you are on the side of the majority, it is time to reform."_
+
+> [!info]
+> See [Callouts - Obsidian Help](https://help.obsidian.md/callouts) for more
+
+> [!tip]
+> Use can show code in the incut:
+> ```json
+> { "this": { "is": ["example", "code"] } }
+> ```
+
+> [!abstract]
+> That's about incuts/callouts
+> > [!success] success
+> > The end after the long steps.
+
+> [!faq] Frequently Asked Questions
+> > [!warning]
+> >
+> > [!tip]
+> > > Can we nest and fold?
+> >
+> > Yes. But right now (2026.02) this nested blocks group is broken
+
+> [!danger]- Don't open!
+> > [!failure] here's your failure
+> > > [!bug]- ok, fix the bug then
+> > > > [!success] the bug was fixed
 
 ## Metadata
 
