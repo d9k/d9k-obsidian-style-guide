@@ -9,6 +9,7 @@ Brodie Robertson
 CppCon
 DeadP47
 Depressed Nousagi
+DevForge
 Digging The Greats
 Dreams of Code
 Dushnila
