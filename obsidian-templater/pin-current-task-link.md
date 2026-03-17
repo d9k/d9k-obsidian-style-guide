@@ -1,0 +1,1 @@
+- :round_pushpin: [[#^current-test-task|текущая задача]]

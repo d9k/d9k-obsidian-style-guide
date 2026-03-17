@@ -237,6 +237,7 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :dove_of_peace: free
 - _"Citation"_
 - (Σ) result, conclusion, brief solution
+- :recycle: updated at (watching for something)
 
 ### TODO
 
@@ -417,8 +418,8 @@ Add `!` before local link.
 
 ## Metadata
 
-- 2024.08 / 2023.11
-	- update time / created time
+- 2023.11 | :recycle: 2024.08
+	-  created time | update time
 - 2023.11
 	- create time only
 

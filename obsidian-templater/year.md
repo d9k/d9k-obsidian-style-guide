@@ -1,1 +1,1 @@
- (<% tp.date.now('YYYY') %>)
+, <% tp.date.now('YYYY') %>
