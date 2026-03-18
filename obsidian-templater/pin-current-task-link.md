@@ -1,1 +1,1 @@
-- :round_pushpin: [[#^current-test-task|текущая задача]]
+- :round_pushpin: [[#^current-task|текущая задача]]
