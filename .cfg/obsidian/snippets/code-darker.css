@@ -17,8 +17,8 @@
 /*.cm-line:not(.cm-active) .cm-inline-code {*/
 .cm-widgetBuffer + .cm-inline-code:not(.cm-formatting) {
     border-radius: 2px;
-    border-left: 10px solid #171f26;
-    border-right: 10px solid #171f26;
+    border-left: 4px solid #171f26;
+    border-right: 4px solid #171f26;
 }
 
 body {
