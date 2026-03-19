@@ -326,6 +326,15 @@
           "multiline": false,
           "sticky": false,
           "disabled": false
+        },
+        {
+          "from": "Hacker News",
+          "to": "HN",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
         }
       ],
       "collapsed": false,
@@ -1636,7 +1645,7 @@
           "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -1653,7 +1662,7 @@
           "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -2512,9 +2521,26 @@
       "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
+    },
+    {
+      "name": "multiline bash code block (```bash)",
+      "rules": [
+        {
+          "from": "([^¶]+)",
+          "to": "```bash\\n$1\\n```",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": false,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "link",
+  "filterString": "",
   "commandFilterString": "",
   "commands": [
     {
