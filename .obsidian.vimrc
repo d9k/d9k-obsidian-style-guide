@@ -110,6 +110,7 @@ exmap surround_backticks surround ` `
 exmap surround_brackets surround ( )
 exmap surround_square_brackets surround [ ]
 exmap surround_curly_brackets surround { }
+exmap surround_angle_brackets surround < >
 
 map s" :surround_double_quotes<CR>
 map s' :surround_single_quotes<CR>
@@ -121,6 +122,7 @@ map s[ :surround_square_brackets<CR>
 map s] :surround_square_brackets<CR>
 map s{ :surround_curly_brackets<CR>
 map s} :surround_curly_brackets<CR>
+map s< :surround_angle_brackets<CR>
 
 " DOESN'T WORK!
 "noremap sE` vE:surround_backticks<CR>
