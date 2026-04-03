@@ -237,9 +237,17 @@ nnoremap <Space>yl "+^y$
 
 " (G[x] becomes accord beginning to [G]o somewhere) which is singular in file
 "map GG G
+"nnoremap GG G
 unmap G
+"nnoremap G <nop>
 "noremap GG :$<BS><BS><BS><CR>
-noremap GG :$<CR>
+"noremap GG :<BS><BS><BS><BS><BS><BS><BS>$<CR>
+"nunmap G
+nnoremap GG :$<CR>
+"vnoremap GG :$<CR>
+vnoremap GG 9999999gg
+"noremap GG G
+"noremap G <nop>
 "noremap GG <C-End>
 
 nnoremap GP <Esc>/<Space>\^current-task<CR><Esc>
