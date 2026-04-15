@@ -2425,7 +2425,7 @@
       "rules": [
         {
           "from": "([^\\s].*[^\\s])",
-          "to": "/* $1 */",
+          "to": "/* $1 */dd",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
@@ -2528,6 +2528,32 @@
         {
           "from": "([^¶]+)",
           "to": "```bash\\n$1\\n```",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": false,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    },
+    {
+      "name": "date link from url",
+      "rules": [
+        {
+          "from": "(http.+)",
+          "to": "/ [| {{date}}]($1)",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "(\\d{4})-(\\d{2})-(\\d{2})",
+          "to": "$1.$2.$3",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
