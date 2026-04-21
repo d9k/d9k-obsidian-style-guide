@@ -3,6 +3,7 @@
   min-height: 64px;
   --tab-font-size: 15px;
   padding-right: 52px;
+  align-items: end;
 }
 
 .mod-root .workspace-tab-header-container-inner {
@@ -13,10 +14,12 @@
   width: max-content;
   flex-basis: max-content;
   container-type: initial;
-  max-width: 100%;
+  max-width: 240px;
   flex-shrink: 0;
   padding-top: 4px;
   padding-bottom: 4px;
+  max-height: 34px;
+  flex-grow: 0;
 }
 
 .mod-root .workspace-tabs .workspace-tab-header-inner {
@@ -54,3 +57,4 @@
   height: 100%;
   position: absolute !important;
 }
+
