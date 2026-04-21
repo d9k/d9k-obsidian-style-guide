@@ -21,6 +21,17 @@
     border-right: 4px solid #171f26;
 }
 
+/* 
+ * Hack to fix when switiching back-and-forth between inline code block
+ * .cm-s-obsidian .cm-inline-code.cm-formatting ~ .cm-inline-code:not(.cm-formatting) {
+ **/
+.cm-widgetBuffer + .cm-inline-code.cm-list-3:not(.cm-formatting) {
+    border-left: 4px solid #171f26 !important;
+    border-right: 4px solid #171f26 !important;
+    padding: 0.15em 0.3em !important; 
+}
+
+
 body {
     --code-normal: #6dbf77;
     --code-block-alt-bg: #171f26 !important;
