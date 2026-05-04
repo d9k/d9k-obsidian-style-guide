@@ -238,16 +238,21 @@ nnoremap <Space>yl "+^y$
 " (G[x] becomes accord beginning to [G]o somewhere) which is singular in file
 "map GG G
 "nnoremap GG G
+
 unmap G
+nnoremap GG :$<CR>
+
+" Hack because :$<CR> doesn't work in visual mode
+vnoremap GG 9999999gg
+
 "nnoremap G <nop>
 "noremap GG :$<BS><BS><BS><CR>
 "noremap GG :<BS><BS><BS><BS><BS><BS><BS>$<CR>
 "nunmap G
-nnoremap GG :$<CR>
 "vnoremap GG :$<CR>
-vnoremap GG 9999999gg
 "noremap GG G
 "noremap G <nop>
 "noremap GG <C-End>
 
-nnoremap GP <Esc>/<Space>\^current-task<CR><Esc>
+" [G]o to [P]inned task
+noremap GP <Esc>/<Space>\^current-task<CR><Esc>
