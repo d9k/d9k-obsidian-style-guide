@@ -1,1 +1,1 @@
-- :round_pushpin: ^current-task
+- :label::round_pushpin: ^current-task

@@ -119,6 +119,7 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :triangular_ruler: architecture
 - :robot_face: automation
 - :bust_in_silhouette: access
+- ⏪ backup
 - ↔️ diff
 - :electric_plug: environment, connection, credentials
 - :rotating_light: error code/text, crash
@@ -226,6 +227,7 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :star: stars count
 - :lady_beetle: bugs count ( opened / ( closed + opened ) = percentage_of_opened)
 - :ladder: commits count (month / year / total)
+- :floppy_disk: commit
 
 ### Other
 
