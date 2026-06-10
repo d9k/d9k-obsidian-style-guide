@@ -2564,9 +2564,26 @@
       "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
+    },
+    {
+      "name": "remove newline duplicates",
+      "rules": [
+        {
+          "from": "[\\n\\r]{2,}",
+          "to": "\\n",
+          "caseInsensitive": false,
+          "global": true,
+          "multiline": true,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": false,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "teleg",
+  "filterString": "new",
   "commandFilterString": "",
   "commands": [
     {
