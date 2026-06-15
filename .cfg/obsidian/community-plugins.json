@@ -7,7 +7,6 @@
   "hover-external-link",
   "obsidian-icon-shortcodes",
   "obsidian-quiet-outline",
-  "darlal-switcher-plus",
   "obsidian-image-toolkit",
   "search-on-internet",
   "spoiler-block-obsidian",
@@ -28,5 +27,8 @@
   "obsidian-regex-replace",
   "quick-explorer",
   "webpage-html-export",
-  "change-case"
+  "change-case",
+  "path-in-tab-title",
+  "darlal-switcher-plus",
+  "obsidian-shellcommands"
 ]
