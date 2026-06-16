@@ -173,12 +173,12 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :speech_balloon: discussions on forums/issues
 - :speaking_head_in_silhouette: asked question
 - :busts_in_silhouette: community
-- [-] :sunglasses: contacts / people
 - :male-office-worker: author / contact / social network account
 - :construction: (author not responding or doesn't plan to fix)
+	- :no_good: no answer for lon time `${last_check} / ${since}`
 - :bell: waiting for answer
 - :arrows_counterclockwise: last checked `${last_check} / ${since}`
-- :no_good: no answer for long time `${last_check} / ${since}`
+- :notebook: reviews
 
 ### Program code navigation
 
@@ -324,6 +324,8 @@ Partially implemented in [my Obsidian templates](https://github.com/d9k/d9k-scri
 - :bulb: :brain: 💭 :cloud: 👄 🧵 - idea
 - :eye: - log
 - :open_book: 📕 📚 📔 - book?
+- :sunglasses: contacts / people?
+- :star: 🧐 :mag: 📓 💭 - review
 
 ## Foldable blocks
 
