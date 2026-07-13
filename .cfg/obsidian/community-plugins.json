@@ -7,7 +7,6 @@
   "hover-external-link",
   "obsidian-icon-shortcodes",
   "obsidian-quiet-outline",
-  "obsidian-image-toolkit",
   "search-on-internet",
   "spoiler-block-obsidian",
   "obsidian-trim-whitespace",
@@ -30,5 +29,7 @@
   "change-case",
   "path-in-tab-title",
   "darlal-switcher-plus",
-  "obsidian-shellcommands"
+  "obsidian-shellcommands",
+  "auto-file-extension",
+  "obsidian-image-toolkit"
 ]

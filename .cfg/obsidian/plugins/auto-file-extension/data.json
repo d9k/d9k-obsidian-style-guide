@@ -1,0 +1,15 @@
+{
+  "rules": [
+    {
+      "type": "directory",
+      "label": "d9k notes",
+      "directory": "notes/fastnote/*",
+      "extension": "txt"
+    }
+  ],
+  "revertToMd": true,
+  "showRenameNotifications": true,
+  "runOnModify": true,
+  "usePathExtension": true,
+  "debugToConsole": true
+}
