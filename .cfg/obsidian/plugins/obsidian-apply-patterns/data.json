@@ -1219,8 +1219,8 @@
       "name": "# [ ] header checkbox task: todo",
       "rules": [
         {
-          "from": "^([ -]*)([^#])",
-          "to": "## $2",
+          "from": "^([ \\-\\[\\]]*)",
+          "to": "## ",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
@@ -2609,7 +2609,7 @@
       "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "srt",
+  "filterString": "task",
   "commandFilterString": "",
   "commands": [
     {
