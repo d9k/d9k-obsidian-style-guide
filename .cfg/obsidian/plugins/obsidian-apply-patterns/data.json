@@ -1219,7 +1219,7 @@
       "name": "# [ ] header checkbox task: todo",
       "rules": [
         {
-          "from": "^([ \\-\\[\\]]*)",
+          "from": "^([ \\-\\[\\]]+)",
           "to": "## ",
           "caseInsensitive": false,
           "global": false,
