@@ -188,7 +188,9 @@ noremap [` <Esc>?`<CR>nhvi`
 
 " Next/previous inside square brackets
 noremap ][ <Esc>/\[<CR><Esc>vi[o
+noremap ]] <Esc>/\[<CR><Esc>vi[
 noremap [] <Esc>?\[<CR><Esc>nlvi[
+noremap [[ <Esc>?\[<CR><Esc>nlvi[o
 
 " Next/previous inside round braces
 noremap ]( <Esc>/\(<CR><Esc>lvi(o
