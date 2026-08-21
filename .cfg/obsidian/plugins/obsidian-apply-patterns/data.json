@@ -337,7 +337,7 @@
           "disabled": false
         }
       ],
-      "collapsed": false,
+      "collapsed": true,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -2607,9 +2607,26 @@
       "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
+    },
+    {
+      "name": "telegram / tg fix formatting",
+      "rules": [
+        {
+          "from": "^([\\s]*)·",
+          "to": "$1-",
+          "caseInsensitive": false,
+          "global": true,
+          "multiline": true,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": false,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "task",
+  "filterString": "",
   "commandFilterString": "",
   "commands": [
     {
