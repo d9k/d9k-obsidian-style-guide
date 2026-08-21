@@ -157,10 +157,6 @@ map <A-Up> ?^#<CR>
 "Doesn't work 
 "map <A-X> lxh
 
-" Next/previous block of text
-map <A-m> }}{j
-map <A-n> {{j
-
 map ]b }}{j
 map [b {{j
 
@@ -258,3 +254,15 @@ vnoremap GG 9999999gg
 
 " [G]o to [P]inned task
 noremap GP <Esc>/<Space>\^current-task<CR><Esc>
+
+" Next/previous block of text
+"map <A-m> }}{j
+"map <A-n> {{j
+
+noremap <A-m> }
+noremap <A-n> {
+
+noremap } }}{j
+noremap { {{j
+
+
