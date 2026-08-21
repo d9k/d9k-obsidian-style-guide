@@ -10,5 +10,6 @@
 .cfg/obsidian/plugins/remember-cursor-position/cursor-positions.json
 .cfg/obsidian/plugins/scrolling/scrolling-positions.json
 .cfg/obsidian/plugins/various-complements/histories.json
+.cfg/obsidian/plugins.bk/
 obsidian-templater/_*
 markdown-autocomplete/_*
