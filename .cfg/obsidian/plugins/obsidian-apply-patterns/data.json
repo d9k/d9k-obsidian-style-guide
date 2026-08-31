@@ -2139,16 +2139,16 @@
       "name": "in escaped square brackets \\[ \\]",
       "rules": [
         {
-          "from": "(.*)",
+          "from": "([\\w\\W\\n\\r]+)",
           "to": "\\[$1\\]",
           "caseInsensitive": false,
           "global": false,
-          "multiline": false,
+          "multiline": true,
           "sticky": false,
           "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
