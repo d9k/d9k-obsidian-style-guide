@@ -94,8 +94,8 @@
           "disabled": false
         },
         {
-          "from": "\\[([a-zA-Z0-9_-]+)\\/(.+)\\]\\((https://github.com/(.+))\\)",
-          "to": "[$2]($3) by [$1](https://github.com/$1)",
+          "from": "\\[([a-zA-Z0-9_-]+)\\/(.+)\\]\\((https:\\/\\/github.com\\/([^/]+))\\/(.+)\\)",
+          "to": "[$2]($3/$5) by [$4](https://github.com/$4)",
           "caseInsensitive": false,
           "global": false,
           "multiline": false,
@@ -335,9 +335,18 @@
           "multiline": false,
           "sticky": false,
           "disabled": false
+        },
+        {
+          "from": " d9k/d9k",
+          "to": " d9k",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
         }
       ],
-      "collapsed": true,
+      "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
     },
@@ -2600,7 +2609,7 @@
       "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "```",
+  "filterString": "",
   "commandFilterString": "",
   "commands": [
     {
