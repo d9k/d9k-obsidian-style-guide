@@ -1,0 +1,23 @@
+.modal-container .suggestion-item.mod-complex.qsp-suggestion-symbol.qsp-symbol-l0 {
+  color: var(--h1-color);
+}
+
+.modal-container .suggestion-item.mod-complex.qsp-suggestion-symbol.qsp-symbol-l1 {
+  color: var(--h2-color);
+}
+
+.modal-container .suggestion-item.mod-complex.qsp-suggestion-symbol.qsp-symbol-l2 {
+  color: var(--h3-color);
+}
+
+.modal-container .suggestion-item.mod-complex.qsp-suggestion-symbol.qsp-symbol-l3 {
+  color: var(--h4-color);
+}
+
+.modal-container .suggestion-item.mod-complex.qsp-suggestion-symbol.qsp-symbol-l4 {
+  color: var(--h5-color);
+}
+
+.modal-container .suggestion-item.mod-complex.qsp-suggestion-symbol.qsp-symbol-l5 {
+  color: var(--h6-color);
+}
