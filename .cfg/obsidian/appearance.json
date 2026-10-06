@@ -1,8 +1,8 @@
 {
   "accentColor": "#6a89c8",
-  "textFontFamily": "Monofoki Nerd Font",
+  "textFontFamily": "Consoleet Terminus-16",
   "interfaceFontFamily": "",
-  "monospaceFontFamily": "Monofoki Nerd Font",
+  "monospaceFontFamily": "",
   "cssTheme": "",
   "enabledCssSnippets": [
     "line-numbers-relative",
@@ -26,7 +26,10 @@
     "vim-yank-highlight",
     "window-width-less",
     "windows-icons-slim",
-    "headers-colors-quick-switcher"
+    "headers-colors-quick-switcher",
+    "font-letter-spacing",
+    "font-consoleet-termnus-16-fixes",
+    "font-consoleet-terminus-16-fixes"
   ],
-  "baseFontSize": 17
+  "baseFontSize": 16
 }
