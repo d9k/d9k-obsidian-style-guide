@@ -21,3 +21,20 @@
 .modal-container .suggestion-item.mod-complex.qsp-suggestion-symbol.qsp-symbol-l5 {
   color: var(--h6-color);
 }
+
+
+.modal-container .suggestion-item.mod-complex.qsp-suggestion-symbol .suggestion-title {
+  color: #b0b0b0;
+}
+
+.modal-container .suggestion-item.mod-complex.qsp-suggestion-symbol .suggestion-highlight {
+  /* color: #d2ed91; */
+  color: #fff;
+}
+
+.modal-container .suggestion-item.mod-complex.qsp-suggestion-symbol .suggestion-flair.qsp-symbol-indicator {
+  /* color: #d2ed91; */
+  color: #fff;
+  font-size: 18px;
+  line-height: 24px;
+}

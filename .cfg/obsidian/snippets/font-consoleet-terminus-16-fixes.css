@@ -1,0 +1,6 @@
+/* body,  */
+.app-container,
+.modal-container {
+  --font-ui-medium: 16px;
+  font-size: var(--font-ui-medium);
+}

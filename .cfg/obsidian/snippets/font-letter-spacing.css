@@ -1,0 +1,9 @@
+body {
+   letter-spacing: 1px;
+   --h1-letter-spacing: 2px;
+   --h2-letter-spacing: 2px;
+   --h3-letter-spacing: 2px;
+   --h4-letter-spacing: 1px;
+   --h5-letter-spacing: 1px;
+}
+
