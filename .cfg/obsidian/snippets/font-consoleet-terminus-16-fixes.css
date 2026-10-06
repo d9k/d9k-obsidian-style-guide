@@ -4,3 +4,14 @@
   --font-ui-medium: 16px;
   font-size: var(--font-ui-medium);
 }
+
+.cm-em,
+.cm-header {
+  font-family: var(--font-interface);
+  /* font-size:16px; */
+}
+
+.cm-gutterElement {
+  font-size: 16px;
+}
+

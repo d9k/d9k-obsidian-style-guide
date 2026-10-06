@@ -25,7 +25,7 @@ body {
 }
 
 .cm-header-2 {
-    font-style: italic;
+    /* font-style: italic; */
 
     /**
      * To not apply italic for emojis
@@ -96,4 +96,9 @@ body {
   padding-top: 0.3rem;
 }
 
+/** TODO NOT headers. Separate? */
 
+/** Boldly Emphasized */
+.cm-em.cm-strong {
+  color: #00ffc7;
+}
