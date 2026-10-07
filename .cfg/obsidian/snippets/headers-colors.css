@@ -78,24 +78,6 @@ body {
   color: var(--h6-color) !important;
 }
 
-.cm-header.cm-hashtag {
-  background-color: var(--header-tag-background);
-}
-
-.cm-header.cm-hashtag-begin {
-  padding-left: 8px;
-}
-
-.cm-header.cm-hashtag-end {
-  padding-right: 8px;
-}
-
-/** Less spacing between headers. Because need to remember add blank line before header */
-.cm-s-obsidian .cm-line.HyperMD-header {
-  /*--p-spacing: 0.3rem;*/
-  padding-top: 0.3rem;
-}
-
 /** TODO NOT headers. Separate? */
 
 /** Boldly Emphasized */
