@@ -1,1 +1,1 @@
-:speaking_head_in_silhouette:
+🗣️️

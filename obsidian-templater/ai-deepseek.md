@@ -1,0 +1,1 @@
+:robot_face: DeepSeek: <% tp.file.cursor() %>
