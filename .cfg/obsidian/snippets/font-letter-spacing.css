@@ -7,3 +7,26 @@ body {
    --h5-letter-spacing: 1px;
 }
 
+.cm-header-1 {
+  word-spacing: 6px;
+}
+
+.cm-header-2 {
+  word-spacing: 4px;
+}
+
+.cm-header-3 {
+  word-spacing: 4px;
+}
+
+.cm-header-4 {
+  word-spacing: 2px;
+}
+
+.cm-header-5 {
+  word-spacing: 2px;
+}
+
+.cm-header-6 {
+  word-spacing: 2px;
+}
