@@ -1,0 +1,33 @@
+/* body,  */
+.app-container,
+.modal-container {
+  --code-size: var(--font-text-size);
+  --font-smallest: var(--code-size);
+  --font-ui-medium: var(--code-size);
+  --font-ui-small: var(--code-size);
+  --font-ui-smaller: var(--code-size);
+  --tag-size: var(--code-size);
+  --line-height-normal: 34px;
+  font-size: var(--font-ui-medium);
+  /* --font-monospace: var(--font-text); */
+}
+
+.cm-em,
+.cm-header {
+  font-family: var(--font-interface);
+  /* font-size:16px; */
+}
+
+.cm-gutterElement {
+  font-size: 18px;
+}
+
+.cm-line > * {
+  vertical-align: middle;
+  /* vertical-align: sub; */
+}
+
+.cm-isc-icon {
+  /* line-height: 120% */
+  font-size: 120%
+}

@@ -1,8 +1,8 @@
 {
   "accentColor": "#6a89c8",
-  "textFontFamily": "Consoleet Terminus-16",
+  "textFontFamily": "Consoleet Terminus-18",
   "interfaceFontFamily": "",
-  "monospaceFontFamily": "",
+  "monospaceFontFamily": "Consoleet Terminus-18",
   "cssTheme": "",
   "enabledCssSnippets": [
     "line-numbers-relative",
@@ -29,7 +29,7 @@
     "headers-colors-quick-switcher",
     "font-letter-spacing",
     "font-consoleet-termnus-16-fixes",
-    "font-consoleet-terminus-16-fixes"
+    "font-consoleet-terminus-18-fixes"
   ],
-  "baseFontSize": 16
+  "baseFontSize": 18
 }
