@@ -2607,9 +2607,26 @@
       "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
+    },
+    {
+      "name": "vscode file link fix",
+      "rules": [
+        {
+          "from": "\\[([^\\]]*)\\]\\(vscode-webview:\\/\\/[a-z0-9]*\\/([^:]*):[0-9]*\\)",
+          "to": "$1 в :open_file_folder: `$2`",
+          "caseInsensitive": false,
+          "global": true,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": false,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "tg",
+  "filterString": "",
   "commandFilterString": "",
   "commands": [
     {
