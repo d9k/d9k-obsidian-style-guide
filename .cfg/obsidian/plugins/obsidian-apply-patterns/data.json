@@ -2575,7 +2575,7 @@
       "cursorRegexEnd": "^"
     },
     {
-      "name": "telegram / tg fix formatting",
+      "name": "telegram / tg / AI fix formatting",
       "rules": [
         {
           "from": "^([\\s]*)·",
@@ -2609,7 +2609,7 @@
       "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "",
+  "filterString": "tg",
   "commandFilterString": "",
   "commands": [
     {
