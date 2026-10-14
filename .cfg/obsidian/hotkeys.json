@@ -199,14 +199,15 @@
   "workspace:copy-path": [
     {
       "modifiers": [
-        "Alt",
-        "Shift"
+        "Alt"
       ],
       "key": "C"
     },
     {
       "modifiers": [
-        "Alt"
+        "Alt",
+        "Mod",
+        "Shift"
       ],
       "key": "C"
     }
@@ -815,6 +816,24 @@
         "Shift"
       ],
       "key": "B"
+    }
+  ],
+  "advanced-cursors:add-cursor-below": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "C"
+    }
+  ],
+  "editor:add-cursor-below": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "C"
     }
   ]
 }
