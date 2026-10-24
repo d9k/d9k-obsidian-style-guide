@@ -2624,9 +2624,35 @@
       "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
+    },
+    {
+      "name": "remove spaces before punctuation",
+      "rules": [
+        {
+          "from": " ([,.»:])",
+          "to": "$1",
+          "caseInsensitive": false,
+          "global": true,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "«[ ]",
+          "to": "«",
+          "caseInsensitive": false,
+          "global": true,
+          "multiline": false,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": false,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
     }
   ],
-  "filterString": "vscode",
+  "filterString": "",
   "commandFilterString": "",
   "commands": [
     {
