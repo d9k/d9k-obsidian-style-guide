@@ -2650,6 +2650,23 @@
       "collapsed": false,
       "cursorRegexStart": "$",
       "cursorRegexEnd": "^"
+    },
+    {
+      "name": "remove spaces",
+      "rules": [
+        {
+          "from": "[ ]{2,}",
+          "to": " ",
+          "caseInsensitive": false,
+          "global": false,
+          "multiline": true,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": false,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
     }
   ],
   "filterString": "",
